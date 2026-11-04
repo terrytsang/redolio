@@ -1,6 +1,22 @@
-# REDOLIO
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="public/brand/redolio-logo-darkbg.png">
+    <img src="public/brand/redolio-logo-lightbg.png" alt="REDOLIO" width="340">
+  </picture>
+</p>
 
-**Let's REDO it.** REDOLIO reads a website, works out what the business does and what is holding the site back, and builds a
+<p align="center"><strong>Let's REDO it.</strong> The intelligent website transformation platform, powered by the Meta Model API.</p>
+
+<p align="center">
+  <a href="https://github.com/terrytsang/redolio/actions/workflows/tests.yml"><img src="https://github.com/terrytsang/redolio/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
+  <img src="https://img.shields.io/badge/Laravel-13-red.svg" alt="Laravel 13">
+  <img src="https://img.shields.io/badge/PHP-8.4-777bb4.svg" alt="PHP 8.4">
+</p>
+
+<p align="center"><img src="docs/screenshots/home.png" alt="The REDOLIO homepage: paste a website address and get a redesigned version" width="900"></p>
+
+REDOLIO reads a website, works out what the business does and what is holding the site back, and builds a
 brand-new version you can compare side by side — then lets you edit it on the page and download or publish it.
 
 - **Website DNA** — an AI reading of the business: what it does, who it serves, what makes it different.
@@ -13,6 +29,16 @@ brand-new version you can compare side by side — then lets you edit it on the 
 
 Built with **Laravel 13 · PHP 8.4 · Tailwind CSS v4**, using the **Meta Model API** (Muse) by default. Claude, ChatGPT and
 Gemini can be switched on in the admin settings.
+
+## See it work
+
+**Before and after, side by side** — the original site next to its REDOLIO redesign:
+
+<p align="center"><img src="docs/screenshots/reveal.png" alt="A dated dental website next to its redesigned REDOLIO version" width="900"></p>
+
+**Edit the new design right on the page** — click any text, button or picture; drag add-ons up and down; pick layouts, fonts and images:
+
+<p align="center"><img src="docs/screenshots/editor.png" alt="The on-page editor with the element list on the right" width="900"></p>
 
 ## Get started
 
