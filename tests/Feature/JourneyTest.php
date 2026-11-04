@@ -378,7 +378,23 @@ class JourneyTest extends TestCase
         $this->assertStringContainsString('REDO PREVIEW', $landing);
         $this->assertStringContainsString('REDOLIO analyses your website', $landing);
         $this->assertStringContainsString('© 2026 REDOLIO', $landing);
+        $this->assertMatchesRegularExpression('#A product of <a href="https://appition\.com" target="_blank" rel="noopener noreferrer"[^>]*>Appition</a>\.#', $landing);
+        foreach (['GitHub', 'Twitter', 'LinkedIn'] as $gone) {
+            $this->assertStringNotContainsString($gone, $landing, "the footer no longer lists {$gone}");
+        }
         $this->assertStringContainsString('<title>REDOLIO | AI Website Transformation Platform to Build Better Digital Experiences</title>', $landing);
         $this->assertStringNotContainsString('© 2026 REDO.', $landing);
+    }
+
+    public function test_the_homepage_has_no_demo_links(): void
+    {
+        $this->seed(\Database\Seeders\DemoFixturesSeeder::class);
+        $html = $this->get('/')->assertOk()->getContent();
+
+        $this->assertStringNotContainsString('Try a demo', $html);
+        $this->assertStringNotContainsString('/demo/', $html, 'no link to a demo website');
+        $this->assertStringNotContainsString('href="#demo"', $html);
+        $this->assertStringNotContainsString('Demo Websites', $html);
+        $this->assertStringNotContainsString('Demo businesses', $html);
     }
 }

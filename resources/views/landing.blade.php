@@ -13,7 +13,6 @@
                 <a href="#how-it-works" class="text-sm font-medium text-muted hover:text-ink">How it works</a>
                 <a href="{{ route('pricing') }}" class="text-sm font-medium text-muted hover:text-ink">Pricing</a>
                 <a href="{{ route('directions.index') }}" class="text-sm font-medium text-muted hover:text-ink">Directions</a>
-                <a href="#demo" class="text-sm font-medium text-muted hover:text-ink">Demo</a>
             </nav>
 
             <div class="flex items-center gap-3">
@@ -73,18 +72,6 @@
                 <ul class="flex flex-wrap gap-x-5 gap-y-1 text-[13px] text-muted" aria-label="How it works">
                     <li>① Paste your address</li><li>② Create a free account in seconds</li><li>③ Get your redesigned website</li>
                 </ul>
-
-                @if ($demoFixtures->isNotEmpty())
-                    <div class="flex flex-wrap items-center gap-2.5">
-                        <span class="text-[13px] text-faint">Try a demo:</span>
-                        @foreach ($demoFixtures as $fixture)
-                            <a href="{{ route('demo.show', $fixture->fixture_key) }}"
-                               class="rounded-full border border-line-strong bg-surface-2 px-3.5 py-1.5 text-xs font-medium text-accent-ink hover:border-accent">
-                                {{ $fixture->display_name }} →
-                            </a>
-                        @endforeach
-                    </div>
-                @endif
             </div>
 
             {{-- Hero Right: before/after preview collage --}}
@@ -447,7 +434,6 @@
                         ['Under 200s', 'Average analysis time'],
                         ['5', 'Evidence-backed issues per analysis'],
                         ['100%', 'Issue claims linked to website evidence'],
-                        ['2', 'Demo businesses, ready to explore'],
                     ] as [$value, $label])
                         <div class="flex items-center gap-6 border-t border-line py-5">
                             <span class="w-28 shrink-0 text-[40px] font-extrabold tracking-tight text-ink">{{ $value }}</span>
@@ -508,7 +494,7 @@
     </section>
 
     {{-- Footer --}}
-    <footer class="border-t border-line bg-canvas px-6 pb-10 pt-16 lg:px-16" id="demo">
+    <footer class="border-t border-line bg-canvas px-6 pb-10 pt-16 lg:px-16">
         <div class="mx-auto flex max-w-7xl flex-col gap-12">
             <div class="flex flex-col gap-10 sm:flex-row sm:justify-between">
                 <div class="flex max-w-[280px] flex-col gap-3">
@@ -522,7 +508,7 @@
                 <div class="grid grid-cols-2 gap-10 sm:flex sm:gap-16">
                     @foreach ([
                         'Product' => ['Features', 'How it works', 'Pricing', 'Changelog', 'Roadmap'],
-                        'Resources' => ['Documentation', 'Demo Websites', 'Security', 'API status', 'Evidence policy'],
+                        'Resources' => ['Documentation', 'Security', 'API status', 'Evidence policy'],
                         'Company' => ['About', 'Built at Meta Hackathon', 'Privacy policy', 'Terms of service', 'Contact'],
                     ] as $heading => $links)
                         <div class="flex w-40 flex-col gap-3.5">
@@ -539,13 +525,7 @@
 
             <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
                 <span class="text-xs text-body">© 2026 REDOLIO. Built for better websites.</span>
-                <div class="flex items-center gap-4 text-body">
-                    <span>GitHub</span>
-                    <span>·</span>
-                    <span>Twitter</span>
-                    <span>·</span>
-                    <span>LinkedIn</span>
-                </div>
+                <p class="text-xs text-body">A product of <a href="https://appition.com" target="_blank" rel="noopener noreferrer" class="font-semibold text-ink underline-offset-2 hover:underline">Appition</a>.</p>
             </div>
         </div>
     </footer>
