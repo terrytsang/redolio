@@ -1,0 +1,3 @@
+<section class="bp-section"><div class="bp-wrap">@if (! empty($c['heading']))<h2 class="bpw-h">{{ $c['heading'] }}</h2>@endif
+@if ($publish)<iframe class="bpw-map" src="https://www.google.com/maps?q={{ rawurlencode($c['address']) }}&output=embed" title="Map: {{ $c['address'] }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-popups" style="height:{{ (int) ($c['height'] ?? 380) }}px"></iframe>
+@else<div class="bpw-ph" style="min-height:{{ min(260, (int) ($c['height'] ?? 380)) }}px" role="note"><strong>📍 {{ $c['address'] }}</strong><span>The map shows on your published site.</span></div>@endif</div></section>

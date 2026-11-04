@@ -1,0 +1,96 @@
+{
+  "id": "launch-page-01",
+  "name": "Launch Page",
+  "description": "Single-message conversion page for launches, waitlists and campaigns: a focused hero, proof, benefits, answers and one clear next step.",
+  "category_ids": [
+    "landing",
+    "saas"
+  ],
+  "compatible_direction_ids": [
+    "launch-signal",
+    "product-pulse",
+    "bold-commerce",
+    "datacanvas"
+  ],
+  "page_type": "homepage",
+  "section_sequence": [
+    {
+      "instance_id": "navigation-launch",
+      "component_id": "navigation",
+      "variant_id": "product",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "hero-launch",
+      "component_id": "hero",
+      "variant_id": "centered",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "logo-proof",
+      "component_id": "trust-strip",
+      "variant_id": "logos",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "features-launch",
+      "component_id": "features",
+      "variant_id": "bento",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "pricing-launch",
+      "component_id": "pricing",
+      "variant_id": "simple",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "faq-launch",
+      "component_id": "faq",
+      "variant_id": "accordion",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "cta-launch",
+      "component_id": "cta",
+      "variant_id": "full-width-bold",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "footer-launch",
+      "component_id": "footer",
+      "variant_id": "minimal",
+      "optional": false,
+      "fallback": "required"
+    }
+  ],
+  "responsive_rules": {
+    "breakpoint_profile": "default",
+    "mobile_navigation": "disclosure-menu",
+    "section_order_overrides": {},
+    "visibility_rules": {},
+    "notes": "The hero stacks; benefits and pricing collapse to one column."
+  },
+  "interaction_contracts": [
+    {
+      "type": "mobile_navigation",
+      "section": "navigation"
+    }
+  ],
+  "preview_assets": [],
+  "version": 1,
+  "status": "draft",
+  "provenance": {
+    "authored_by": "REDO",
+    "source": "Independently authored from PRD v1.5 section vocabulary",
+    "licence": "Internal"
+  },
+  "content_slot_schema": "derived-from-section-registry"
+}

@@ -1,0 +1,147 @@
+{
+  "navigation-simple": {
+    "brand": "Whitfield & Cole",
+    "links": [
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Clients",
+        "href": "#testimonials"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "cta": {
+      "label": "Book a consultation",
+      "href": "#contact"
+    }
+  },
+  "hero-service-split": {
+    "eyebrow": "Chartered accountants",
+    "headline": "Straightforward advice you can rely on",
+    "subheadline": "Tax, accounting and business advisory for owner-managed companies — explained clearly, delivered on time.",
+    "primary_cta": {
+      "label": "Book a free consultation",
+      "href": "#contact"
+    },
+    "secondary_cta": {
+      "label": "Our services",
+      "href": "#services"
+    },
+    "image": {
+      "alt": "Advisers meeting a client"
+    }
+  },
+  "services-image-grid": {
+    "heading": "How we help",
+    "items": [
+      {
+        "title": "Tax planning",
+        "description": "Plan ahead, stay compliant and keep more of what you earn.",
+        "meta": "Advice"
+      },
+      {
+        "title": "Accounts & bookkeeping",
+        "description": "Accurate, timely records with no year-end surprises.",
+        "meta": "Compliance"
+      },
+      {
+        "title": "Business advisory",
+        "description": "Practical guidance on growth, funding and succession.",
+        "meta": "Growth"
+      },
+      {
+        "title": "Payroll",
+        "description": "Reliable pay runs and pension administration.",
+        "meta": "Operations"
+      }
+    ]
+  },
+  "testimonials-cards": {
+    "heading": "What clients say",
+    "items": [
+      {
+        "quote": "Clear, patient and always on top of the deadlines.",
+        "name": "Ravi Shah",
+        "role": "Director, Shah Logistics"
+      },
+      {
+        "quote": "They explained things in plain English and saved us real money.",
+        "name": "Helen Park",
+        "role": "Owner, Park & Daughters"
+      }
+    ]
+  },
+  "contact-form": {
+    "heading": "Book a free consultation",
+    "body": "Tell us a little about your business and we will reply within one working day.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "How can we help?",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "submit_label": "Send message",
+    "contact_details": [
+      {
+        "label": "Phone",
+        "value": "(000) 000-0000"
+      },
+      {
+        "label": "Email",
+        "value": "hello@example.com"
+      },
+      {
+        "label": "Hours",
+        "value": "Mon–Fri, 9am–5:30pm"
+      }
+    ]
+  },
+  "footer-contact": {
+    "brand": "Whitfield & Cole",
+    "tagline": "Trusted advice for owner-managed businesses.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Contact",
+            "href": "#contact"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Whitfield & Cole — illustrative example site for a fictional brand."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "navigation-product": {
+    "brand": "Northwind Flow",
+    "links": [
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "Product",
+        "href": "#gallery"
+      }
+    ],
+    "cta": {
+      "label": "Start free",
+      "href": "#get-started"
+    }
+  },
+  "hero-product-split": {
+    "eyebrow": "Workflow automation",
+    "headline": "Ship work, not status updates",
+    "subheadline": "Northwind Flow turns requests, approvals and handoffs into one automated pipeline your whole team can see.",
+    "primary_cta": {
+      "label": "Start free",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "Watch the 2-minute tour",
+      "href": "#features"
+    },
+    "image": {
+      "alt": "Product dashboard illustration"
+    }
+  },
+  "features-bento": {
+    "heading": "Everything your team needs to keep work moving",
+    "items": [
+      {
+        "title": "Unified inbox",
+        "description": "Every request lands in one prioritised queue so nothing slips through.",
+        "icon": "mail"
+      },
+      {
+        "title": "Rules that run themselves",
+        "description": "Describe what should happen and let automation handle the rest.",
+        "icon": "cog"
+      },
+      {
+        "title": "Live team pulse",
+        "description": "See who is blocked and what is next at a glance.",
+        "icon": "chart-bar"
+      },
+      {
+        "title": "Secure by default",
+        "description": "Role-based access and a full audit trail.",
+        "icon": "lock-closed"
+      },
+      {
+        "title": "Fast onboarding",
+        "description": "Import existing work and be productive in an afternoon.",
+        "icon": "rocket"
+      },
+      {
+        "title": "Real human support",
+        "description": "People who answer, with clear documentation alongside.",
+        "icon": "users"
+      }
+    ]
+  },
+  "product-screenshots": {
+    "heading": "See it in action",
+    "items": [
+      {
+        "title": "Overview",
+        "caption": "The daily team dashboard"
+      },
+      {
+        "title": "Automations",
+        "caption": "The rule builder"
+      },
+      {
+        "title": "Reports",
+        "caption": "Weekly summary"
+      },
+      {
+        "title": "Settings",
+        "caption": "Roles and access"
+      }
+    ]
+  },
+  "cta-product": {
+    "heading": "Ready to move faster?",
+    "body": "Start free — no card required.",
+    "primary_cta": {
+      "label": "Start free",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "Watch the 2-minute tour",
+      "href": "#features"
+    }
+  },
+  "footer-product": {
+    "brand": "Northwind Flow",
+    "tagline": "Workflow automation for modern teams.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Features",
+            "href": "#features"
+          },
+          {
+            "label": "Product",
+            "href": "#gallery"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Northwind Flow — illustrative example site for a fictional brand."
+  }
+}

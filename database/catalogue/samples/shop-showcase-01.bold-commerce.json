@@ -1,0 +1,154 @@
+{
+  "navigation-shop": {
+    "brand": "KICKSTREET",
+    "links": [
+      {
+        "label": "Shop",
+        "href": "#products"
+      },
+      {
+        "label": "Why us",
+        "href": "#features"
+      },
+      {
+        "label": "Reviews",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Shop the drop",
+      "href": "#products"
+    }
+  },
+  "hero-shop": {
+    "eyebrow": "Drop 07 · Limited run",
+    "headline": "Fresh kicks. Zero compromise.",
+    "subheadline": "The new season’s hottest sneakers, with fast delivery and easy returns. Grab yours before they’re gone.",
+    "primary_cta": {
+      "label": "Shop the drop",
+      "href": "#products"
+    },
+    "secondary_cta": {
+      "label": "View all sneakers",
+      "href": "#features"
+    },
+    "image": {
+      "alt": "Featured products from the collection"
+    }
+  },
+  "products-featured": {
+    "heading": "Hot right now",
+    "items": [
+      {
+        "title": "Aero Runner",
+        "description": "Ultra-light daily trainer",
+        "price": "$129",
+        "badge": "New",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      },
+      {
+        "title": "Court Classic",
+        "description": "Heritage leather court shoe",
+        "price": "$99",
+        "badge": "Sale",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      },
+      {
+        "title": "Trail Blazer",
+        "description": "Grippy all-terrain outsole",
+        "price": "$149",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      },
+      {
+        "title": "Street Low",
+        "description": "Everyday low-top canvas",
+        "price": "$89",
+        "badge": "Hot",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      }
+    ]
+  },
+  "features-shop": {
+    "heading": "Why shop with us",
+    "items": [
+      {
+        "title": "Fast delivery",
+        "description": "Tracked shipping on every order.",
+        "icon": "rocket"
+      },
+      {
+        "title": "Easy returns",
+        "description": "Changed your mind? Send them back.",
+        "icon": "check-circle"
+      },
+      {
+        "title": "Secure checkout",
+        "description": "Encrypted payments, always.",
+        "icon": "lock-closed"
+      }
+    ]
+  },
+  "testimonials-shop": {
+    "heading": "Loved by customers",
+    "items": [
+      {
+        "quote": "Best sneakers I’ve bought — and they arrived in two days.",
+        "name": "Marcus T.",
+        "role": "Customer"
+      }
+    ]
+  },
+  "cta-shop": {
+    "heading": "Don’t sleep on this drop",
+    "body": "Sizes are going fast.",
+    "primary_cta": {
+      "label": "Shop the drop",
+      "href": "#products"
+    },
+    "secondary_cta": {
+      "label": "View all sneakers",
+      "href": "#features"
+    }
+  },
+  "footer-shop": {
+    "brand": "KICKSTREET",
+    "tagline": "Sneakers for people who move.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Shop",
+            "href": "#products"
+          },
+          {
+            "label": "Why us",
+            "href": "#features"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© KICKSTREET — illustrative example site for a fictional brand."
+  }
+}

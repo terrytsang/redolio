@@ -1,0 +1,135 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+/* Dark mode is a [data-theme="dark"] attribute on <html>; light is the default. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* ------------------------------------------------------------------ design tokens */
+:root {
+    color-scheme: light;
+    --c-canvas: #f7f6f2;
+    --c-surface: #ffffff;
+    --c-surface-2: #f3f2ee;
+    --c-ink: #0e0f14;
+    --c-body: #3d3d48;
+    --c-muted: #62626e;
+    --c-faint: #8d8d99;
+    --c-line: #e8e6e0;
+    --c-line-strong: #d6d3cb;
+    --c-accent: #6d28d9;
+    --c-accent-strong: #5b21b6;
+    --c-accent-soft: #f2edff;
+    --c-accent-ink: #5b21b6;
+    --c-ok: #047857;
+    --c-ok-soft: #e3f6ee;
+    --c-warn: #92400e;
+    --c-warn-soft: #fdf3dc;
+    --c-bad: #b91c1c;
+    --c-bad-soft: #fdeaea;
+    --shadow-card: 0 1px 2px rgb(16 17 24 / 0.04), 0 8px 24px -12px rgb(16 17 24 / 0.10);
+    --shadow-lift: 0 2px 4px rgb(16 17 24 / 0.05), 0 22px 40px -18px rgb(76 29 149 / 0.28);
+    --glow: radial-gradient(60% 50% at 50% 0%, rgb(124 58 237 / 0.10), transparent 70%);
+}
+
+:root[data-theme='dark'] {
+    color-scheme: dark;
+    --c-canvas: #0a0a0f;
+    --c-surface: #13131b;
+    --c-surface-2: #1a1a24;
+    --c-ink: #f4f4f7;
+    --c-body: #c9c9d3;
+    --c-muted: #9b9bab;
+    --c-faint: #74748a;
+    --c-line: #25252f;
+    --c-line-strong: #34343f;
+    --c-accent: #8b5cf6;
+    --c-accent-strong: #7c3aed;
+    --c-accent-soft: #1d1537;
+    --c-accent-ink: #c4b5fd;
+    --c-ok: #34d399;
+    --c-ok-soft: #0f2a21;
+    --c-warn: #fbbf24;
+    --c-warn-soft: #2d2410;
+    --c-bad: #f87171;
+    --c-bad-soft: #2f1416;
+    --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 10px 28px -14px rgb(0 0 0 / 0.7);
+    --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.5), 0 24px 44px -18px rgb(139 92 246 / 0.35);
+    --glow: radial-gradient(60% 50% at 50% 0%, rgb(139 92 246 / 0.18), transparent 70%);
+}
+
+@theme inline {
+    --color-canvas: var(--c-canvas);
+    --color-surface: var(--c-surface);
+    --color-surface-2: var(--c-surface-2);
+    --color-ink: var(--c-ink);
+    --color-body: var(--c-body);
+    --color-muted: var(--c-muted);
+    --color-faint: var(--c-faint);
+    --color-line: var(--c-line);
+    --color-line-strong: var(--c-line-strong);
+    --color-accent: var(--c-accent);
+    --color-accent-strong: var(--c-accent-strong);
+    --color-accent-soft: var(--c-accent-soft);
+    --color-accent-ink: var(--c-accent-ink);
+    --color-ok: var(--c-ok);
+    --color-ok-soft: var(--c-ok-soft);
+    --color-warn: var(--c-warn);
+    --color-warn-soft: var(--c-warn-soft);
+    --color-bad: var(--c-bad);
+    --color-bad-soft: var(--c-bad-soft);
+    --shadow-card: var(--shadow-card);
+    --shadow-lift: var(--shadow-lift);
+}
+
+html { background: var(--c-canvas); }
+body { background: var(--c-canvas); color: var(--c-ink); font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+
+/* Smooth, but never for people who ask for less motion. */
+@media (prefers-reduced-motion: no-preference) {
+    html.theme-ready body, html.theme-ready .t-fade { transition: background-color .25s ease, color .25s ease; }
+}
+
+/* ------------------------------------------------------------------ shared components */
+.card { background: var(--c-surface); border: 1px solid var(--c-line); border-radius: 1.25rem; box-shadow: var(--shadow-card); }
+.card-lift { transition: transform .25s cubic-bezier(.2,.8,.2,1), box-shadow .25s ease, border-color .25s ease; }
+.card-lift:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: color-mix(in srgb, var(--c-accent) 45%, var(--c-line)); }
+@media (prefers-reduced-motion: reduce) { .card-lift:hover { transform: none; } }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; border-radius: 999px; padding: .625rem 1.15rem; font-size: .8125rem; font-weight: 600; line-height: 1; transition: background-color .15s, border-color .15s, color .15s, box-shadow .15s; cursor: pointer; }
+.btn:focus-visible, .field:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--c-accent); outline-offset: 2px; }
+.btn-primary { background: var(--c-accent); color: #fff; box-shadow: 0 6px 18px -8px color-mix(in srgb, var(--c-accent) 80%, transparent); }
+.btn-primary:hover { background: var(--c-accent-strong); }
+.btn-dark { background: var(--c-ink); color: var(--c-canvas); }
+.btn-dark:hover { opacity: .88; }
+.btn-ghost { background: var(--c-surface); color: var(--c-ink); border: 1px solid var(--c-line-strong); }
+.btn-ghost:hover { border-color: var(--c-accent); color: var(--c-accent-ink); }
+
+.field { width: 100%; background: var(--c-surface); color: var(--c-ink); border: 1px solid var(--c-line-strong); border-radius: .75rem; padding: .65rem .9rem; font-size: .875rem; transition: border-color .15s, box-shadow .15s; }
+.field::placeholder { color: var(--c-faint); }
+.field:focus { outline: none; border-color: var(--c-accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-accent) 18%, transparent); }
+
+.pill { display: inline-flex; align-items: center; gap: .35rem; border-radius: 999px; padding: .2rem .65rem; font-size: .6875rem; font-weight: 700; letter-spacing: .01em; }
+.pill-ok { background: var(--c-ok-soft); color: var(--c-ok); }
+.pill-bad { background: var(--c-bad-soft); color: var(--c-bad); }
+.pill-warn { background: var(--c-warn-soft); color: var(--c-warn); }
+.pill-accent { background: var(--c-accent-soft); color: var(--c-accent-ink); }
+
+.page-glow { position: absolute; inset: 0 0 auto 0; height: 420px; background: var(--glow); pointer-events: none; }
+.grad-text { background: linear-gradient(100deg, var(--c-accent) 0%, #c026d3 55%, #f59e0b 120%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+/* REDOLIO logo: light-background artwork by default, dark-background artwork in dark mode. */
+.brand-logo { display: inline-flex; align-items: center; height: 2.25rem; line-height: 0; }
+.brand-logo img { height: 100%; width: auto; display: block; }
+.brand-logo__dark { display: none !important; }
+:root[data-theme='dark'] .brand-logo__light { display: none !important; }
+:root[data-theme='dark'] .brand-logo__dark { display: block !important; }
+
+.shot-frame { position: relative; overflow: hidden; background: linear-gradient(135deg, var(--c-accent-soft), var(--c-surface-2)); }
+.shot-frame img { transition: transform .6s cubic-bezier(.2,.8,.2,1); }
+.card-lift:hover .shot-frame img { transform: scale(1.03); }
+@media (prefers-reduced-motion: reduce) { .card-lift:hover .shot-frame img { transform: none; } }

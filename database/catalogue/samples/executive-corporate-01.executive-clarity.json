@@ -1,0 +1,135 @@
+{
+  "navigation-corporate": {
+    "brand": "Calder & Voss",
+    "links": [
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Why us",
+        "href": "#features"
+      },
+      {
+        "label": "Clients",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Book a consultation",
+      "href": "#get-started"
+    }
+  },
+  "hero-corporate": {
+    "eyebrow": "Management consultancy",
+    "headline": "Clear decisions for complex organisations",
+    "subheadline": "Strategy, operations and transformation advisory for leadership teams that need confidence, not jargon.",
+    "primary_cta": {
+      "label": "Book a consultation",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "Our capabilities",
+      "href": "#services"
+    },
+    "image": {
+      "alt": "Team meeting in a bright office"
+    }
+  },
+  "services-capabilities": {
+    "heading": "Capabilities",
+    "items": [
+      {
+        "title": "Strategy & portfolio",
+        "description": "Set a direction your board can back, grounded in evidence and honest trade-offs.",
+        "meta": "Advisory"
+      },
+      {
+        "title": "Operating model design",
+        "description": "Align structure, process and governance so strategy survives contact with reality.",
+        "meta": "Design"
+      },
+      {
+        "title": "Transformation delivery",
+        "description": "Senior teams who stay through implementation and hand over something that lasts.",
+        "meta": "Delivery"
+      },
+      {
+        "title": "Risk & governance",
+        "description": "Clear accountability and controls that support, rather than slow, the business.",
+        "meta": "Assurance"
+      }
+    ]
+  },
+  "features-differentiators": {
+    "heading": "Why leadership teams choose us",
+    "items": [
+      {
+        "title": "Senior-led, always",
+        "description": "Partners stay hands-on from first workshop to final handover.",
+        "icon": "users"
+      },
+      {
+        "title": "Evidence first",
+        "description": "Every recommendation traces back to data you can inspect.",
+        "icon": "chart-bar"
+      },
+      {
+        "title": "Built to last",
+        "description": "We design for the day we leave, not for the next invoice.",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "testimonials-clients": {
+    "heading": "In their words",
+    "items": [
+      {
+        "quote": "They gave our board a plan we could actually execute.",
+        "name": "Priya Raman",
+        "role": "Chief Operating Officer"
+      }
+    ]
+  },
+  "cta-consultation": {
+    "heading": "Let’s talk about what’s next",
+    "body": "A short, no-obligation conversation with a partner.",
+    "primary_cta": {
+      "label": "Book a consultation",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "Our capabilities",
+      "href": "#services"
+    }
+  },
+  "footer-corporate": {
+    "brand": "Calder & Voss",
+    "tagline": "Advisory for ambitious organisations.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Why us",
+            "href": "#features"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Calder & Voss — illustrative example site for a fictional brand."
+  }
+}

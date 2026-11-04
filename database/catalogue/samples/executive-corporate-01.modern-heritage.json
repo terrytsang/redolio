@@ -1,0 +1,135 @@
+{
+  "navigation-corporate": {
+    "brand": "Hartwell & Sons",
+    "links": [
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Why us",
+        "href": "#features"
+      },
+      {
+        "label": "Clients",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Visit the workshop",
+      "href": "#get-started"
+    }
+  },
+  "hero-corporate": {
+    "eyebrow": "Family-run since 1952",
+    "headline": "Craftsmanship that has earned its reputation",
+    "subheadline": "Four generations of joinery, restoration and bespoke furniture — made slowly, made properly, made to last.",
+    "primary_cta": {
+      "label": "Visit the workshop",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "See our work",
+      "href": "#services"
+    },
+    "image": {
+      "alt": "Team meeting in a bright office"
+    }
+  },
+  "services-capabilities": {
+    "heading": "What we make",
+    "items": [
+      {
+        "title": "Bespoke furniture",
+        "description": "Tables, cabinets and beds drawn with you and built in solid timber.",
+        "meta": "Made to order"
+      },
+      {
+        "title": "Restoration",
+        "description": "Heirlooms brought back with period techniques and honest repairs.",
+        "meta": "Conservation"
+      },
+      {
+        "title": "Architectural joinery",
+        "description": "Staircases, panelling and windows fitted by our own craftspeople.",
+        "meta": "Commissions"
+      },
+      {
+        "title": "Care & repair",
+        "description": "Ongoing care so pieces age gracefully and stay in the family.",
+        "meta": "Aftercare"
+      }
+    ]
+  },
+  "features-differentiators": {
+    "heading": "Why families come back",
+    "items": [
+      {
+        "title": "Made by hand",
+        "description": "Every joint cut and finished in our own workshop.",
+        "icon": "heart"
+      },
+      {
+        "title": "Honest materials",
+        "description": "Responsibly sourced timber, natural oils and waxes.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Looked after for life",
+        "description": "We repair what we make, whatever its age.",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "testimonials-clients": {
+    "heading": "In their words",
+    "items": [
+      {
+        "quote": "Our grandmother’s table, restored beautifully — you can still see where we all sat.",
+        "name": "Eleanor Whitcombe",
+        "role": "Customer"
+      }
+    ]
+  },
+  "cta-consultation": {
+    "heading": "Come and see the workshop",
+    "body": "Visits are welcome by appointment — kettle always on.",
+    "primary_cta": {
+      "label": "Visit the workshop",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "See our work",
+      "href": "#services"
+    }
+  },
+  "footer-corporate": {
+    "brand": "Hartwell & Sons",
+    "tagline": "Fine joinery, made in the old way.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Why us",
+            "href": "#features"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Hartwell & Sons — illustrative example site for a fictional brand."
+  }
+}

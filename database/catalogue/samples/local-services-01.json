@@ -1,0 +1,240 @@
+{
+  "navigation-simple": {
+    "brand": "Harbor & Pine Sample",
+    "links": [
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Process",
+        "href": "#process"
+      },
+      {
+        "label": "Projects",
+        "href": "#gallery"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "cta": {
+      "label": "Request a quote",
+      "href": "#contact"
+    }
+  },
+  "hero-service-split": {
+    "eyebrow": "Sample local service business",
+    "headline": "Reliable work, explained clearly, done properly",
+    "subheadline": "A sample homepage for a service provider that leads with credibility and a clear way to get in touch.",
+    "primary_cta": {
+      "label": "Request a quote",
+      "href": "#contact"
+    },
+    "secondary_cta": {
+      "label": "See our services",
+      "href": "#services"
+    },
+    "image": {
+      "alt": "Team at work on a project"
+    }
+  },
+  "trust-statistics": {
+    "heading": "Sample credibility figures",
+    "items": [
+      {
+        "value": "00+",
+        "label": "Years in business"
+      },
+      {
+        "value": "000",
+        "label": "Projects completed"
+      },
+      {
+        "value": "00",
+        "label": "Team members"
+      },
+      {
+        "value": "00",
+        "label": "Service areas"
+      }
+    ]
+  },
+  "services-image-grid": {
+    "heading": "What we do",
+    "subheading": "Three sample services with a clear description each.",
+    "items": [
+      {
+        "title": "Planning & advice",
+        "description": "We start by understanding the job, the constraints and the budget.",
+        "meta": "Step one",
+        "cta": {
+          "label": "Learn more",
+          "href": "#"
+        }
+      },
+      {
+        "title": "Installation",
+        "description": "Careful, tidy work carried out by trained people.",
+        "meta": "Core service",
+        "cta": {
+          "label": "Learn more",
+          "href": "#"
+        }
+      },
+      {
+        "title": "Maintenance",
+        "description": "Regular checks that keep everything working as it should.",
+        "meta": "Ongoing",
+        "cta": {
+          "label": "Learn more",
+          "href": "#"
+        }
+      }
+    ]
+  },
+  "process-steps": {
+    "heading": "How we work",
+    "items": [
+      {
+        "title": "Tell us the need",
+        "description": "A short conversation or form is all we need to begin."
+      },
+      {
+        "title": "Receive a clear quote",
+        "description": "You see what is included before anything starts."
+      },
+      {
+        "title": "We do the work",
+        "description": "We keep you updated and leave the site tidy."
+      }
+    ]
+  },
+  "project-gallery": {
+    "heading": "Recent projects",
+    "items": [
+      {
+        "title": "Project one",
+        "caption": "Sample caption"
+      },
+      {
+        "title": "Project two",
+        "caption": "Sample caption"
+      },
+      {
+        "title": "Project three",
+        "caption": "Sample caption"
+      }
+    ]
+  },
+  "testimonials-cards": {
+    "heading": "What clients say",
+    "items": [
+      {
+        "quote": "Sample testimonial text showing how a short client quote is laid out on a card.",
+        "name": "Sample Client",
+        "role": "Homeowner"
+      },
+      {
+        "quote": "A second placeholder quote. Real testimonials are only ever shown when the source site provides them.",
+        "name": "Another Client",
+        "role": "Business owner"
+      }
+    ]
+  },
+  "contact-form": {
+    "heading": "Request a quote",
+    "body": "Tell us a little about the job and we will reply within one working day.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "tel"
+      },
+      {
+        "name": "message",
+        "label": "About the job",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "submit_label": "Send request",
+    "contact_details": [
+      {
+        "label": "Phone",
+        "value": "(000) 000-0000"
+      },
+      {
+        "label": "Email",
+        "value": "hello@example.com"
+      },
+      {
+        "label": "Hours",
+        "value": "Mon–Fri, 8am–5pm"
+      }
+    ]
+  },
+  "footer-contact": {
+    "brand": "Harbor & Pine Sample",
+    "tagline": "Sample footer for a local services layout preview.",
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          {
+            "label": "Planning",
+            "href": "#"
+          },
+          {
+            "label": "Installation",
+            "href": "#"
+          },
+          {
+            "label": "Maintenance",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About",
+            "href": "#"
+          },
+          {
+            "label": "Projects",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          },
+          {
+            "label": "Request a quote",
+            "href": "#contact"
+          }
+        ]
+      }
+    ],
+    "legal": "© Sample company. Layout preview only."
+  }
+}

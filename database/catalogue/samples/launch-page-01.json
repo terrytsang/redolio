@@ -1,0 +1,118 @@
+{
+  "navigation-launch": {
+    "brand": "Parcelly",
+    "links": [
+      {
+        "label": "Why Parcelly",
+        "href": "#features"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "cta": {
+      "label": "Join the waitlist",
+      "href": "#get-started"
+    }
+  },
+  "hero-launch": {
+    "eyebrow": "Now in early access",
+    "headline": "Stop chasing deliveries. Start trusting them.",
+    "subheadline": "Join the waitlist for the smartest way to track every parcel you’re expecting — in one place, with zero spam.",
+    "primary_cta": {
+      "label": "Join the waitlist",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "How it works",
+      "href": "#features"
+    },
+    "image": {
+      "alt": "Parcelly tracking screen"
+    }
+  },
+  "features-launch": {
+    "heading": "One calm place for every parcel",
+    "items": [
+      {
+        "title": "One inbox for every parcel",
+        "description": "Forward a confirmation and we do the tracking.",
+        "icon": "mail"
+      },
+      {
+        "title": "Smart delay alerts",
+        "description": "Hear about problems before they become your problem.",
+        "icon": "clock"
+      },
+      {
+        "title": "Privacy first",
+        "description": "We never sell or share your data.",
+        "icon": "lock-closed"
+      },
+      {
+        "title": "Works with every carrier",
+        "description": "From local couriers to global freight.",
+        "icon": "globe"
+      }
+    ]
+  },
+  "faq-launch": {
+    "heading": "Questions, answered",
+    "items": [
+      {
+        "question": "When does Parcelly launch?",
+        "answer": "We are letting people in from the waitlist in small batches over the coming weeks."
+      },
+      {
+        "question": "Will it cost anything?",
+        "answer": "Early-access members get free use while we learn what matters most."
+      },
+      {
+        "question": "Which carriers do you support?",
+        "answer": "Most major carriers, with more added every week based on what members ask for."
+      }
+    ]
+  },
+  "cta-launch": {
+    "heading": "Be first in line",
+    "body": "Early members shape what we build next.",
+    "primary_cta": {
+      "label": "Join the waitlist",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "Read the FAQ",
+      "href": "#faq"
+    }
+  },
+  "footer-launch": {
+    "brand": "Parcelly",
+    "tagline": "Every parcel, one calm place.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Why Parcelly",
+            "href": "#features"
+          },
+          {
+            "label": "FAQ",
+            "href": "#faq"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Parcelly — illustrative example site for a fictional brand."
+  }
+}

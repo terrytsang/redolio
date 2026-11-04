@@ -1,0 +1,153 @@
+{
+  "navigation-shop": {
+    "brand": "Maison Lune",
+    "links": [
+      {
+        "label": "Shop",
+        "href": "#products"
+      },
+      {
+        "label": "Why us",
+        "href": "#features"
+      },
+      {
+        "label": "Reviews",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Shop the collection",
+      "href": "#products"
+    }
+  },
+  "hero-shop": {
+    "eyebrow": "Autumn collection",
+    "headline": "Quiet luxury for everyday rituals",
+    "subheadline": "Hand-finished homeware and objects, sourced from small ateliers and made to be kept.",
+    "primary_cta": {
+      "label": "Shop the collection",
+      "href": "#products"
+    },
+    "secondary_cta": {
+      "label": "Our ateliers",
+      "href": "#features"
+    },
+    "image": {
+      "alt": "Featured products from the collection"
+    }
+  },
+  "products-featured": {
+    "heading": "The collection",
+    "items": [
+      {
+        "title": "Linen throw — Oat",
+        "description": "Stonewashed European linen",
+        "price": "$148",
+        "badge": "New",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      },
+      {
+        "title": "Stoneware vase",
+        "description": "Hand-thrown, matte glaze",
+        "price": "$96",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      },
+      {
+        "title": "Beeswax taper set",
+        "description": "Pure beeswax, set of six",
+        "price": "$38",
+        "badge": "Bestseller",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      },
+      {
+        "title": "Walnut serving tray",
+        "description": "Solid walnut, oiled finish",
+        "price": "$120",
+        "cta": {
+          "label": "View",
+          "href": "#products"
+        }
+      }
+    ]
+  },
+  "features-shop": {
+    "heading": "The Maison way",
+    "items": [
+      {
+        "title": "Made in small batches",
+        "description": "Limited runs from independent makers.",
+        "icon": "heart"
+      },
+      {
+        "title": "Natural materials",
+        "description": "Linen, clay, wood and wax — nothing synthetic.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Gift ready",
+        "description": "Wrapped in recycled tissue as standard.",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  "testimonials-shop": {
+    "heading": "Loved by customers",
+    "items": [
+      {
+        "quote": "The throw is even softer than the photographs.",
+        "name": "Camille D.",
+        "role": "Customer"
+      }
+    ]
+  },
+  "cta-shop": {
+    "heading": "Make a ritual of it",
+    "body": "Free gift note with every order.",
+    "primary_cta": {
+      "label": "Shop the collection",
+      "href": "#products"
+    },
+    "secondary_cta": {
+      "label": "Our ateliers",
+      "href": "#features"
+    }
+  },
+  "footer-shop": {
+    "brand": "Maison Lune",
+    "tagline": "Objects made to be kept.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Shop",
+            "href": "#products"
+          },
+          {
+            "label": "Why us",
+            "href": "#features"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Maison Lune — illustrative example site for a fictional brand."
+  }
+}

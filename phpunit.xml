@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory>tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory>tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+    <source>
+        <include>
+            <directory>app</directory>
+        </include>
+    </source>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_MAINTENANCE_DRIVER" value="file"/>
+        <env name="BCRYPT_ROUNDS" value="4"/>
+        <env name="BROADCAST_CONNECTION" value="null"/>
+        <env name="CACHE_STORE" value="array"/>
+        <env name="HERO_AUTO_APPLY" value="false"/>
+        <env name="GEOIP_ENABLED" value="false"/>
+        <env name="REDO_SUPPORT_EMAIL" value="support@example.test"/>
+        <env name="META_API_KEY" value=""/>
+        <env name="META_API_BASE_URL" value=""/>
+        <env name="META_API_MODEL_ID" value=""/>
+        <env name="CLAUDE_API_KEY" value=""/>
+        <env name="OPENAI_API_KEY" value=""/>
+        <env name="GEMINI_API_KEY" value=""/>
+        <env name="PEXELS_API_KEY" value=""/>
+        <env name="UNSPLASH_ACCESS_KEY" value=""/>
+        <env name="GOOGLE_CLIENT_ID" value=""/>
+        <env name="GOOGLE_WEB_CLIENT_ID" value=""/>
+        <env name="BROWSERLESS_API_KEY" value=""/>
+        <env name="ADMIN_EMAIL" value=""/>
+        <env name="ADMIN_PASSWORD" value=""/>
+        <env name="BROWSERBASE_PROJECT_ID" value=""/>
+        <env name="REDO_EDITION" value="saas"/>
+        <env name="AI_PROVIDER" value="meta"/>
+        <env name="REDO_BROWSER_PROVIDER" value="local"/>
+        <env name="REDO_BROWSER_FALLBACK" value=""/>
+        <env name="BROWSERBASE_API_KEY" value=""/>
+        <env name="BROWSERLESS_TOKEN" value=""/>
+        <env name="STRIPE_KEY" value=""/>
+        <env name="STRIPE_SECRET" value=""/>
+        <env name="STRIPE_WEBHOOK_SECRET" value=""/>
+        <env name="STRIPE_REDOLIO_STARTER_PRICE_ID" value=""/>
+        <env name="STRIPE_REDOLIO_AGENCY_PRICE_ID" value=""/>
+        <env name="STRIPE_REDOLIO_EXPORT_PRICE_ID" value=""/>
+        <env name="STRIPE_REDOLIO_EXPORT_OFFER_PRICE_ID" value=""/>
+        <env name="STRIPE_PRICE_STARTER" value=""/>
+        <env name="STRIPE_PRICE_AGENCY" value=""/>
+        <env name="STRIPE_PRICE_EXPORT" value=""/>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
+        <env name="DB_URL" value=""/>
+        <env name="MAIL_MAILER" value="array"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="PULSE_ENABLED" value="false"/>
+        <env name="TELESCOPE_ENABLED" value="false"/>
+        <env name="NIGHTWATCH_ENABLED" value="false"/>
+    </php>
+</phpunit>

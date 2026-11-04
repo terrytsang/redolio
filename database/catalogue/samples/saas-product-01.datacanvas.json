@@ -1,0 +1,132 @@
+{
+  "navigation-product": {
+    "brand": "Meridian Analytics",
+    "links": [
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "Product",
+        "href": "#gallery"
+      }
+    ],
+    "cta": {
+      "label": "Request a demo",
+      "href": "#get-started"
+    }
+  },
+  "hero-product-split": {
+    "eyebrow": "Analytics workspace",
+    "headline": "Every metric, one source of truth",
+    "subheadline": "Connect your warehouse, define metrics once, and give every team dashboards they can trust.",
+    "primary_cta": {
+      "label": "Request a demo",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "Explore the product",
+      "href": "#features"
+    },
+    "image": {
+      "alt": "Product dashboard illustration"
+    }
+  },
+  "features-bento": {
+    "heading": "Analytics without the arguments",
+    "items": [
+      {
+        "title": "Governed metrics",
+        "description": "Define a metric once; it means the same thing everywhere.",
+        "icon": "shield-check"
+      },
+      {
+        "title": "Query without SQL",
+        "description": "Ask questions in plain language and get an auditable answer.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Scheduled reports",
+        "description": "Deliver the right numbers on time, every time.",
+        "icon": "clock"
+      },
+      {
+        "title": "Anomaly alerts",
+        "description": "Be told when something moves, before a stakeholder asks.",
+        "icon": "target"
+      },
+      {
+        "title": "Row-level access",
+        "description": "Each person sees exactly the data they should.",
+        "icon": "lock-closed"
+      },
+      {
+        "title": "Warehouse native",
+        "description": "Your data stays where it is — we query in place.",
+        "icon": "globe"
+      }
+    ]
+  },
+  "product-screenshots": {
+    "heading": "See it in action",
+    "items": [
+      {
+        "title": "Explore",
+        "caption": "Self-serve analysis"
+      },
+      {
+        "title": "Dashboards",
+        "caption": "Shareable boards"
+      },
+      {
+        "title": "Metrics",
+        "caption": "The governed catalogue"
+      },
+      {
+        "title": "Alerts",
+        "caption": "Anomaly detection"
+      }
+    ]
+  },
+  "cta-product": {
+    "heading": "See your own data in minutes",
+    "body": "Book a guided demo with an analyst.",
+    "primary_cta": {
+      "label": "Request a demo",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "Explore the product",
+      "href": "#features"
+    }
+  },
+  "footer-product": {
+    "brand": "Meridian Analytics",
+    "tagline": "Analytics your whole company can trust.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Features",
+            "href": "#features"
+          },
+          {
+            "label": "Product",
+            "href": "#gallery"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Meridian Analytics — illustrative example site for a fictional brand."
+  }
+}

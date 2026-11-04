@@ -1,0 +1,251 @@
+{
+  "navigation-minimal": {
+    "brand": "Ocean Adventure",
+    "links": [
+      {
+        "label": "Lessons",
+        "href": "#services"
+      },
+      {
+        "label": "Schedule",
+        "href": "#schedule"
+      },
+      {
+        "label": "Gallery",
+        "href": "#gallery"
+      },
+      {
+        "label": "Book",
+        "href": "#get-started"
+      }
+    ],
+    "cta": {
+      "label": "Book a lesson",
+      "href": "#get-started"
+    }
+  },
+  "hero-aerial-fullscreen": {
+    "eyebrow": "Sample surf school",
+    "headline": "Learn to ride the ocean",
+    "subheadline": "An immersive sample hero with a full-screen aerial image area, designed for experience-led local businesses.",
+    "primary_cta": {
+      "label": "Book a lesson",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "View the schedule",
+      "href": "#schedule"
+    },
+    "image": {
+      "alt": "Aerial view of surfers on the water"
+    }
+  },
+  "lesson-cards-three": {
+    "heading": "Choose your lesson",
+    "subheading": "Three sample lesson types.",
+    "items": [
+      {
+        "title": "First waves",
+        "description": "A gentle introduction to the basics of the board, the water and safety.",
+        "meta": "Beginner"
+      },
+      {
+        "title": "Progression",
+        "description": "Build confidence turning and catching unbroken waves.",
+        "meta": "Improver"
+      },
+      {
+        "title": "Private coaching",
+        "description": "One-to-one time focused on your goals.",
+        "meta": "All levels"
+      }
+    ]
+  },
+  "weekly-schedule-grid": {
+    "heading": "This week at the beach",
+    "subheading": "Sample times for layout only.",
+    "days": [
+      {
+        "day": "Monday",
+        "slots": [
+          {
+            "time": "09:00",
+            "label": "First waves"
+          },
+          {
+            "time": "14:00",
+            "label": "Progression"
+          }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "slots": [
+          {
+            "time": "09:00",
+            "label": "First waves"
+          },
+          {
+            "time": "16:00",
+            "label": "Private coaching"
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "slots": [
+          {
+            "time": "08:00",
+            "label": "Progression"
+          },
+          {
+            "time": "13:00",
+            "label": "First waves"
+          }
+        ]
+      },
+      {
+        "day": "Saturday",
+        "slots": [
+          {
+            "time": "09:00",
+            "label": "First waves"
+          },
+          {
+            "time": "11:00",
+            "label": "Progression"
+          }
+        ]
+      }
+    ]
+  },
+  "gallery-edge-to-edge": {
+    "heading": "Life on the water",
+    "items": [
+      {
+        "title": "Dawn session"
+      },
+      {
+        "title": "Group lesson"
+      },
+      {
+        "title": "After the wave"
+      },
+      {
+        "title": "Beach days"
+      },
+      {
+        "title": "Coaching"
+      },
+      {
+        "title": "Golden hour"
+      }
+    ]
+  },
+  "equipment-split": {
+    "eyebrow": "What to bring",
+    "heading": "Everything you need is provided",
+    "body": "Sample copy explaining the equipment included with each lesson, so visitors know what to expect.",
+    "bullets": [
+      "Board matched to your level",
+      "Wetsuit in your size",
+      "Safety briefing before every lesson"
+    ],
+    "cta": {
+      "label": "Read the guide",
+      "href": "#"
+    },
+    "image": {
+      "alt": "Boards lined up on the sand"
+    }
+  },
+  "statistics-four-column": {
+    "heading": "Sample figures",
+    "items": [
+      {
+        "value": "00",
+        "label": "Years teaching"
+      },
+      {
+        "value": "0,000",
+        "label": "Lessons given"
+      },
+      {
+        "value": "00",
+        "label": "Qualified coaches"
+      },
+      {
+        "value": "00",
+        "label": "Weekly sessions"
+      }
+    ]
+  },
+  "testimonials-editorial": {
+    "heading": "In their words",
+    "items": [
+      {
+        "quote": "Sample quote set large to show the editorial testimonial style for a single, memorable voice.",
+        "name": "Sample Guest",
+        "role": "First-time surfer"
+      }
+    ]
+  },
+  "cta-fullwidth-bold": {
+    "heading": "Your first wave is waiting",
+    "body": "Book a sample lesson.",
+    "primary_cta": {
+      "label": "Book a lesson",
+      "href": "#"
+    },
+    "secondary_cta": {
+      "label": "Ask a question",
+      "href": "#"
+    }
+  },
+  "footer-three-column": {
+    "brand": "Ocean Adventure",
+    "tagline": "Sample footer for an experience-led layout preview.",
+    "columns": [
+      {
+        "title": "Lessons",
+        "links": [
+          {
+            "label": "First waves",
+            "href": "#"
+          },
+          {
+            "label": "Progression",
+            "href": "#"
+          },
+          {
+            "label": "Private coaching",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Visit",
+        "links": [
+          {
+            "label": "Find us",
+            "href": "#"
+          },
+          {
+            "label": "Schedule",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Sample school. Layout preview only."
+  }
+}

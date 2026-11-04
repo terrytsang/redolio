@@ -1,0 +1,144 @@
+{
+  "navigation-studio": {
+    "brand": "Mira Okafor",
+    "links": [
+      {
+        "label": "Practice",
+        "href": "#services"
+      },
+      {
+        "label": "Work",
+        "href": "#gallery"
+      },
+      {
+        "label": "Words",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Commission a shoot",
+      "href": "#get-started"
+    }
+  },
+  "hero-studio": {
+    "eyebrow": "Photographer — Lagos / London",
+    "headline": "Light, patience and the unposed moment",
+    "subheadline": "Editorial and documentary photography for magazines, cultural institutions and people with stories worth keeping.",
+    "primary_cta": {
+      "label": "Commission a shoot",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "View selected work",
+      "href": "#gallery"
+    },
+    "image": {
+      "alt": "Selected work from the studio"
+    }
+  },
+  "services-disciplines": {
+    "heading": "Practice",
+    "items": [
+      {
+        "title": "Editorial portraiture",
+        "description": "Considered portraits for magazines, books and brands.",
+        "meta": "Commissioned"
+      },
+      {
+        "title": "Documentary series",
+        "description": "Long-form work made over months, not days.",
+        "meta": "Personal"
+      },
+      {
+        "title": "Books & exhibitions",
+        "description": "Sequencing, editing and printing for the page and the wall.",
+        "meta": "Publishing"
+      },
+      {
+        "title": "Archive & prints",
+        "description": "Limited editions, signed and numbered.",
+        "meta": "Collectors"
+      }
+    ]
+  },
+  "gallery-selected-work": {
+    "heading": "Selected work",
+    "items": [
+      {
+        "title": "Harmattan, 2024",
+        "caption": "Series, 38 photographs"
+      },
+      {
+        "title": "Market Hours",
+        "caption": "Documentary"
+      },
+      {
+        "title": "The Quiet Room",
+        "caption": "Portraits"
+      },
+      {
+        "title": "Kin",
+        "caption": "Family archive"
+      },
+      {
+        "title": "Salt Road",
+        "caption": "Travel feature"
+      },
+      {
+        "title": "Night Shift",
+        "caption": "Editorial"
+      }
+    ]
+  },
+  "testimonials-studio": {
+    "heading": "Kind words",
+    "items": [
+      {
+        "quote": "She waits until the room forgets the camera.",
+        "name": "A. Laurent",
+        "role": "Picture editor"
+      }
+    ]
+  },
+  "cta-studio": {
+    "heading": "Let’s make something honest",
+    "body": "Commissions open for the coming season.",
+    "primary_cta": {
+      "label": "Commission a shoot",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "View selected work",
+      "href": "#gallery"
+    }
+  },
+  "footer-studio": {
+    "brand": "Mira Okafor",
+    "tagline": "Photography with patience.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Practice",
+            "href": "#services"
+          },
+          {
+            "label": "Work",
+            "href": "#gallery"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Mira Okafor — illustrative example site for a fictional brand."
+  }
+}

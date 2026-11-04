@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://redoweb.site/schemas/design-spec-1.6.schema.json",
+  "title": "REDO DesignSpec 1.6 extension (design_spec_json.v16) — additive to 1.5",
+  "type": "object",
+  "required": ["schema_version"],
+  "properties": {
+    "schema_version": { "type": "string", "enum": ["1.6"] },
+    "hero_content": {
+      "type": "object",
+      "required": ["headline", "approval_status", "validation"],
+      "properties": {
+        "positioning_profile_id": { "type": ["integer", "null"] },
+        "strategy_id": { "type": ["string", "null"], "maxLength": 40 },
+        "eyebrow": { "type": ["string", "null"], "maxLength": 80 },
+        "headline": { "type": "string", "minLength": 1, "maxLength": 140 },
+        "description": { "type": ["string", "null"], "maxLength": 800 },
+        "primary_cta": { "type": ["object", "null"] },
+        "secondary_cta": { "type": ["object", "null"] },
+        "trust_signals": { "type": "array" },
+        "evidence_ids": { "type": "array", "items": { "type": "string" } },
+        "copy_option_id": { "type": ["integer", "null"] },
+        "approval_status": { "type": "string", "enum": ["pending", "approved", "user_edited", "layout_exception"] },
+        "validation": {
+          "type": "object",
+          "required": ["factual_gate", "editorial_gate", "desktop_fit", "tablet_fit", "mobile_fit"],
+          "properties": {
+            "factual_gate": { "type": "string", "enum": ["pending", "pass", "fail", "unavailable"] },
+            "editorial_gate": { "type": "string", "enum": ["pending", "pass", "warn", "fail", "unavailable"] },
+            "desktop_fit": { "type": "string", "enum": ["pending", "pass", "fail", "unavailable"] },
+            "tablet_fit": { "type": "string", "enum": ["pending", "pass", "fail", "unavailable"] },
+            "mobile_fit": { "type": "string", "enum": ["pending", "pass", "fail", "unavailable"] }
+          }
+        }
+      }
+    },
+    "user_edits": { "type": "array", "items": { "type": "object", "required": ["instance_id", "path"], "properties": { "instance_id": { "type": "string" }, "path": { "type": "string" }, "at": { "type": "string" } } } },
+    "edit_baseline": { "type": "object" },
+    "hidden_sections": { "type": "object" },
+    "edit_draft": { "type": ["object", "null"] },
+    "change_summary": { "type": ["string", "null"], "maxLength": 300 }
+  }
+}

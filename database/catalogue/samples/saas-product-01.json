@@ -1,0 +1,259 @@
+{
+  "navigation-product": {
+    "brand": "Northbeam Sample",
+    "links": [
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "cta": {
+      "label": "Start free trial",
+      "href": "#"
+    }
+  },
+  "hero-product-split": {
+    "eyebrow": "Sample product",
+    "headline": "Turn scattered work into one clear workflow",
+    "subheadline": "A sample SaaS homepage showing a product-led hero, proof, feature bento and pricing — layout and art direction only.",
+    "primary_cta": {
+      "label": "Start free trial",
+      "href": "#"
+    },
+    "secondary_cta": {
+      "label": "Watch the tour",
+      "href": "#"
+    },
+    "image": {
+      "alt": "Illustration of a product dashboard"
+    }
+  },
+  "logo-proof-strip": {
+    "heading": "Sample customer names",
+    "items": [
+      {
+        "name": "Acme Co"
+      },
+      {
+        "name": "Globex"
+      },
+      {
+        "name": "Initech"
+      },
+      {
+        "name": "Umbrella"
+      },
+      {
+        "name": "Hooli"
+      }
+    ]
+  },
+  "features-bento": {
+    "heading": "Everything the team needs, in one place",
+    "subheading": "Six placeholder capabilities that show how the bento grid balances large and small cards.",
+    "items": [
+      {
+        "title": "Unified inbox",
+        "description": "Bring every request into a single prioritised queue so nothing slips through.",
+        "icon": "mail"
+      },
+      {
+        "title": "Automation rules",
+        "description": "Describe what should happen and let rules handle the repetitive work.",
+        "icon": "cog"
+      },
+      {
+        "title": "Team insights",
+        "description": "See where time goes with simple, readable reports.",
+        "icon": "chart-bar"
+      },
+      {
+        "title": "Secure by default",
+        "description": "Role-based access and an audit trail for every change.",
+        "icon": "lock-closed"
+      },
+      {
+        "title": "Fast onboarding",
+        "description": "Import existing work and get a team productive in an afternoon.",
+        "icon": "rocket"
+      },
+      {
+        "title": "Friendly support",
+        "description": "Real people answer questions, with clear documentation alongside.",
+        "icon": "users"
+      }
+    ]
+  },
+  "product-screenshots": {
+    "heading": "See it in action",
+    "subheading": "Placeholder product views.",
+    "items": [
+      {
+        "title": "Overview",
+        "caption": "The daily dashboard"
+      },
+      {
+        "title": "Automations",
+        "caption": "Rule builder"
+      },
+      {
+        "title": "Reports",
+        "caption": "Weekly summary"
+      },
+      {
+        "title": "Settings",
+        "caption": "Team controls"
+      }
+    ]
+  },
+  "workflow-steps": {
+    "heading": "How it works",
+    "items": [
+      {
+        "title": "Connect",
+        "description": "Link the tools your team already uses."
+      },
+      {
+        "title": "Organise",
+        "description": "Set up views and rules that match how you work."
+      },
+      {
+        "title": "Improve",
+        "description": "Review the reports and refine every week."
+      }
+    ]
+  },
+  "pricing-simple": {
+    "heading": "Simple, transparent pricing",
+    "subheading": "Sample figures for layout only — not real pricing.",
+    "items": [
+      {
+        "name": "Starter",
+        "price": "$0",
+        "period": "month",
+        "description": "For individuals exploring.",
+        "features": [
+          "Up to 3 projects",
+          "Basic reports"
+        ],
+        "cta": {
+          "label": "Choose Starter",
+          "href": "#"
+        }
+      },
+      {
+        "name": "Team",
+        "price": "$00",
+        "period": "user / month",
+        "description": "For growing teams.",
+        "features": [
+          "Unlimited projects",
+          "Automation rules",
+          "Priority support"
+        ],
+        "cta": {
+          "label": "Choose Team",
+          "href": "#"
+        },
+        "highlighted": true
+      },
+      {
+        "name": "Business",
+        "price": "Custom",
+        "description": "For larger organisations.",
+        "features": [
+          "Single sign-on",
+          "Audit log",
+          "Dedicated manager"
+        ],
+        "cta": {
+          "label": "Contact sales",
+          "href": "#"
+        }
+      }
+    ]
+  },
+  "faq-accordion": {
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Can I try it before paying?",
+        "answer": "This is a sample answer showing how a short, direct response reads inside the accordion."
+      },
+      {
+        "question": "How long does setup take?",
+        "answer": "Another sample answer. Real answers come from the business's own content."
+      },
+      {
+        "question": "Can I cancel at any time?",
+        "answer": "Sample text — replaced with the business's verified policy during generation."
+      }
+    ]
+  },
+  "cta-product": {
+    "heading": "Ready to simplify your workflow?",
+    "body": "Start a free trial today.",
+    "primary_cta": {
+      "label": "Start free trial",
+      "href": "#"
+    },
+    "secondary_cta": {
+      "label": "Talk to us",
+      "href": "#"
+    }
+  },
+  "footer-product": {
+    "brand": "Northbeam Sample",
+    "tagline": "Sample footer for a SaaS layout preview.",
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          {
+            "label": "Features",
+            "href": "#features"
+          },
+          {
+            "label": "Pricing",
+            "href": "#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About",
+            "href": "#"
+          },
+          {
+            "label": "Contact",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy",
+            "href": "#"
+          },
+          {
+            "label": "Terms",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "legal": "© Sample company. Layout preview only."
+  }
+}

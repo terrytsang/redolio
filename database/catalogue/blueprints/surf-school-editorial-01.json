@@ -1,0 +1,112 @@
+{
+  "id": "surf-school-editorial-01",
+  "name": "Ocean Adventure",
+  "description": "Immersive editorial page for experience-led local businesses: full-screen hero, lessons, weekly schedule, gallery, equipment, figures and testimonials.",
+  "category_ids": [
+    "services",
+    "landing"
+  ],
+  "compatible_direction_ids": [
+    "studio-editorial",
+    "auteur",
+    "creative-voltage",
+    "trusted-expertise"
+  ],
+  "page_type": "homepage",
+  "section_sequence": [
+    {
+      "instance_id": "navigation-minimal",
+      "component_id": "navigation",
+      "variant_id": "minimal",
+      "optional": false,
+      "fallback": "required",
+      "variant_locked": true
+    },
+    {
+      "instance_id": "hero-aerial-fullscreen",
+      "component_id": "hero",
+      "variant_id": "aerial-fullscreen",
+      "optional": false,
+      "fallback": "required",
+      "variant_locked": true
+    },
+    {
+      "instance_id": "lesson-cards-three",
+      "component_id": "services",
+      "variant_id": "image-cards",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "weekly-schedule-grid",
+      "component_id": "schedule",
+      "variant_id": "weekly-grid",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "gallery-edge-to-edge",
+      "component_id": "gallery",
+      "variant_id": "edge-to-edge-grid",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "equipment-split",
+      "component_id": "split-content",
+      "variant_id": "image-right",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "statistics-four-column",
+      "component_id": "statistics",
+      "variant_id": "four-column",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "testimonials-editorial",
+      "component_id": "testimonials",
+      "variant_id": "editorial-quotes",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "cta-fullwidth-bold",
+      "component_id": "cta",
+      "variant_id": "full-width-bold",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "footer-three-column",
+      "component_id": "footer",
+      "variant_id": "three-column",
+      "optional": false,
+      "fallback": "required"
+    }
+  ],
+  "responsive_rules": {
+    "breakpoint_profile": "default",
+    "mobile_navigation": "disclosure-menu",
+    "section_order_overrides": {},
+    "visibility_rules": {},
+    "notes": "Hero stays full-height on mobile; schedule scrolls into stacked days."
+  },
+  "interaction_contracts": [
+    {
+      "type": "mobile_navigation",
+      "section": "navigation"
+    }
+  ],
+  "preview_assets": [],
+  "version": 1,
+  "status": "draft",
+  "provenance": {
+    "authored_by": "REDO",
+    "source": "Independently authored from PRD v1.5 section sequence",
+    "licence": "Internal"
+  },
+  "content_slot_schema": "derived-from-section-registry"
+}

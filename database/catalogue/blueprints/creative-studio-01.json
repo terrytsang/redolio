@@ -1,0 +1,96 @@
+{
+  "id": "creative-studio-01",
+  "name": "Creative Studio",
+  "description": "Portfolio-led homepage for studios, agencies and independent creatives: a bold opening, disciplines, selected work and a commissioning call to action.",
+  "category_ids": [
+    "agency",
+    "portfolio"
+  ],
+  "compatible_direction_ids": [
+    "auteur",
+    "gridcraft",
+    "creative-voltage",
+    "studio-editorial"
+  ],
+  "page_type": "homepage",
+  "section_sequence": [
+    {
+      "instance_id": "navigation-studio",
+      "component_id": "navigation",
+      "variant_id": "simple",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "hero-studio",
+      "component_id": "hero",
+      "variant_id": "editorial-asymmetric",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "services-disciplines",
+      "component_id": "services",
+      "variant_id": "editorial-list",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "gallery-selected-work",
+      "component_id": "gallery",
+      "variant_id": "featured-grid",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "statistics-studio",
+      "component_id": "statistics",
+      "variant_id": "four-column",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "testimonials-studio",
+      "component_id": "testimonials",
+      "variant_id": "editorial-quotes",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "cta-studio",
+      "component_id": "cta",
+      "variant_id": "full-width-bold",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "footer-studio",
+      "component_id": "footer",
+      "variant_id": "minimal",
+      "optional": false,
+      "fallback": "required"
+    }
+  ],
+  "responsive_rules": {
+    "breakpoint_profile": "default",
+    "mobile_navigation": "disclosure-menu",
+    "section_order_overrides": {},
+    "visibility_rules": {},
+    "notes": "Gallery tiles stack to a single column; the oversized headline scales down fluidly."
+  },
+  "interaction_contracts": [
+    {
+      "type": "mobile_navigation",
+      "section": "navigation"
+    }
+  ],
+  "preview_assets": [],
+  "version": 1,
+  "status": "draft",
+  "provenance": {
+    "authored_by": "REDO",
+    "source": "Independently authored from PRD v1.5 section vocabulary",
+    "licence": "Internal"
+  },
+  "content_slot_schema": "derived-from-section-registry"
+}

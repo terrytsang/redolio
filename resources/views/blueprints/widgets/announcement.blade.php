@@ -1,0 +1,1 @@
+<div class="bpw-announce" role="region" aria-label="Announcement"><div class="bp-wrap"><span>{{ $c['text'] }}</span>@if (! empty($c['link_label']) && ! empty($c['link_href']))<a href="{{ $c['link_href'] }}">{{ $c['link_label'] }} →</a>@endif</div></div>

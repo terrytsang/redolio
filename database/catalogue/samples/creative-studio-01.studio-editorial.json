@@ -1,0 +1,144 @@
+{
+  "navigation-studio": {
+    "brand": "Atelier Fenn",
+    "links": [
+      {
+        "label": "Practice",
+        "href": "#services"
+      },
+      {
+        "label": "Work",
+        "href": "#gallery"
+      },
+      {
+        "label": "Words",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Talk to the studio",
+      "href": "#get-started"
+    }
+  },
+  "hero-studio": {
+    "eyebrow": "Brand & editorial studio",
+    "headline": "Identities with a point of view",
+    "subheadline": "We help thoughtful companies find their voice and give it form — strategy, naming, identity and publishing.",
+    "primary_cta": {
+      "label": "Talk to the studio",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "Selected projects",
+      "href": "#gallery"
+    },
+    "image": {
+      "alt": "Selected work from the studio"
+    }
+  },
+  "services-disciplines": {
+    "heading": "Services",
+    "items": [
+      {
+        "title": "Brand strategy",
+        "description": "Positioning and voice grounded in what you genuinely do.",
+        "meta": "Foundation"
+      },
+      {
+        "title": "Visual identity",
+        "description": "Marks, type and systems that hold together at every scale.",
+        "meta": "Identity"
+      },
+      {
+        "title": "Editorial design",
+        "description": "Books, journals and reports with a considered rhythm.",
+        "meta": "Print & digital"
+      },
+      {
+        "title": "Art direction",
+        "description": "A consistent eye across photography, packaging and web.",
+        "meta": "Direction"
+      }
+    ]
+  },
+  "gallery-selected-work": {
+    "heading": "Selected projects",
+    "items": [
+      {
+        "title": "Field & Fold",
+        "caption": "Identity & packaging"
+      },
+      {
+        "title": "Terra Coffee",
+        "caption": "Brand system"
+      },
+      {
+        "title": "Salt Journal",
+        "caption": "Editorial design"
+      },
+      {
+        "title": "Maren Hotel",
+        "caption": "Art direction"
+      },
+      {
+        "title": "Hollow Press",
+        "caption": "Publishing"
+      },
+      {
+        "title": "Gather",
+        "caption": "Campaign"
+      }
+    ]
+  },
+  "testimonials-studio": {
+    "heading": "Kind words",
+    "items": [
+      {
+        "quote": "Quietly brilliant — it still feels like us, only clearer.",
+        "name": "Hannah Weiss",
+        "role": "Founder, Field & Fold"
+      }
+    ]
+  },
+  "cta-studio": {
+    "heading": "Let’s make something considered",
+    "body": "We take on a small number of projects each season.",
+    "primary_cta": {
+      "label": "Talk to the studio",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "Selected projects",
+      "href": "#gallery"
+    }
+  },
+  "footer-studio": {
+    "brand": "Atelier Fenn",
+    "tagline": "A studio for brands with something to say.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Practice",
+            "href": "#services"
+          },
+          {
+            "label": "Work",
+            "href": "#gallery"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Atelier Fenn — illustrative example site for a fictional brand."
+  }
+}

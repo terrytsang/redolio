@@ -1,0 +1,1127 @@
+{
+  "catalogue_version": "1.5.0",
+  "source": "REDO Upgrade PRD v1.5",
+  "categories": [
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "Corporate, established and general business websites.",
+      "sort": 0,
+      "keywords": [
+        "company",
+        "corporate",
+        "enterprise",
+        "b2b",
+        "manufactur",
+        "finance",
+        "logistics",
+        "industrial",
+        "established",
+        "holdings",
+        "group",
+        "wholesale"
+      ]
+    },
+    {
+      "id": "saas",
+      "name": "SaaS",
+      "description": "Software products, platforms, AI tools and digital services.",
+      "sort": 1,
+      "keywords": [
+        "software",
+        "saas",
+        "platform",
+        "app",
+        "api",
+        "ai",
+        "automation",
+        "analytics",
+        "developer",
+        "cloud",
+        "dashboard",
+        "subscription",
+        "tool"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfolio",
+      "description": "Personal portfolios and visual bodies of work.",
+      "sort": 2,
+      "keywords": [
+        "portfolio",
+        "designer",
+        "photographer",
+        "artist",
+        "architect",
+        "illustrator",
+        "freelance",
+        "creative work",
+        "case study"
+      ]
+    },
+    {
+      "id": "shop",
+      "name": "Shop",
+      "description": "Ecommerce storefronts and product-led retail.",
+      "sort": 3,
+      "keywords": [
+        "shop",
+        "store",
+        "ecommerce",
+        "e-commerce",
+        "retail",
+        "fashion",
+        "beauty",
+        "product",
+        "cart",
+        "checkout",
+        "boutique"
+      ]
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "description": "Creative, branding, marketing and digital agencies.",
+      "sort": 4,
+      "keywords": [
+        "agency",
+        "branding",
+        "marketing",
+        "advertising",
+        "creative studio",
+        "digital studio",
+        "production"
+      ]
+    },
+    {
+      "id": "landing",
+      "name": "Landing",
+      "description": "Campaign, launch, lead-generation and focused conversion pages.",
+      "sort": 5,
+      "keywords": [
+        "launch",
+        "campaign",
+        "waitlist",
+        "event",
+        "webinar",
+        "registration",
+        "lead generation",
+        "promotion"
+      ]
+    },
+    {
+      "id": "services",
+      "name": "Services",
+      "description": "Professional services, consultants, contractors and local service providers.",
+      "sort": 6,
+      "keywords": [
+        "service",
+        "consult",
+        "repair",
+        "plumb",
+        "clean",
+        "legal",
+        "law",
+        "clinic",
+        "dental",
+        "accounting",
+        "contractor",
+        "local",
+        "school",
+        "lesson",
+        "coaching",
+        "training",
+        "installation",
+        "maintenance"
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "executive-clarity",
+      "name": "Executive Clarity",
+      "primary_category_ids": [
+        "business"
+      ],
+      "compatible_category_ids": [
+        "saas",
+        "services"
+      ],
+      "positioning": "Professional, confident, structured and authoritative.",
+      "visual_traits": [
+        "clear hierarchy",
+        "restrained colour palette",
+        "strong grid",
+        "high legibility",
+        "measured whitespace"
+      ],
+      "recommended_for": [
+        "established businesses",
+        "B2B companies",
+        "corporate consultancies"
+      ],
+      "avoid_when": [
+        "the brand depends on playful experimentation or highly expressive art direction"
+      ],
+      "token_profile": "executive-neutral",
+      "motion_profile": "subtle-functional",
+      "imagery": "credible team, workplace, architecture and service photography",
+      "template_key": "modern_corporate",
+      "version": 1,
+      "token_profile_base": "executive-neutral",
+      "token_overrides": {
+        "color": {
+          "background": "#FFFFFF",
+          "surface": "#F2F5F9",
+          "text": "#0E1A2B",
+          "muted": "#475569",
+          "primary": "#17386B",
+          "primary_contrast": "#FFFFFF",
+          "accent": "#0A62B8"
+        },
+        "typography": {
+          "display": "manrope",
+          "body": "inter"
+        },
+        "radius": "6px",
+        "density": "balanced",
+        "heading_weight": 800,
+        "tracking": "-0.025em"
+      },
+      "conversion_goals": [
+        "lead",
+        "inquiry",
+        "awareness"
+      ],
+      "image_dependence": "low",
+      "content_depth": "high",
+      "layout_preferences": {
+        "navigation": "simple",
+        "hero": "split",
+        "services": "image-cards",
+        "features": "icon-grid",
+        "testimonials": "cards",
+        "cta": "split",
+        "footer": "three-column"
+      },
+      "art_style": "waves",
+      "showcase_blueprint_id": "executive-corporate-01"
+    },
+    {
+      "id": "modern-heritage",
+      "name": "Modern Heritage",
+      "primary_category_ids": [
+        "business"
+      ],
+      "compatible_category_ids": [
+        "services",
+        "shop"
+      ],
+      "positioning": "Timeless, sophisticated and trustworthy, combining established identity with contemporary presentation.",
+      "visual_traits": [
+        "warm neutrals",
+        "editorial typography",
+        "subtle texture",
+        "generous spacing",
+        "refined details"
+      ],
+      "recommended_for": [
+        "traditional businesses",
+        "family businesses",
+        "heritage brands"
+      ],
+      "avoid_when": [
+        "a highly technical or youth-oriented visual language is required"
+      ],
+      "token_profile": "warm-heritage",
+      "motion_profile": "restrained-editorial",
+      "imagery": "authentic people, craft, premises, materials and brand history",
+      "template_key": "editorial",
+      "version": 1,
+      "token_profile_base": "warm-heritage",
+      "token_overrides": {
+        "color": {
+          "background": "#FBF6EC",
+          "surface": "#F1E8D6",
+          "text": "#2A2118",
+          "muted": "#6A5C4B",
+          "primary": "#7A3B24",
+          "primary_contrast": "#FFF8EC",
+          "accent": "#8A5A12"
+        },
+        "typography": {
+          "display": "fraunces",
+          "body": "source-sans-3"
+        },
+        "radius": "4px",
+        "density": "spacious",
+        "heading_weight": 600,
+        "tracking": "-0.01em",
+        "eyebrow_case": "none"
+      },
+      "conversion_goals": [
+        "awareness",
+        "inquiry",
+        "purchase"
+      ],
+      "image_dependence": "medium",
+      "content_depth": "medium",
+      "layout_preferences": {
+        "navigation": "simple",
+        "hero": "editorial-asymmetric",
+        "services": "editorial-list",
+        "features": "icon-grid",
+        "testimonials": "editorial-quotes",
+        "cta": "split",
+        "footer": "three-column"
+      },
+      "art_style": "topo",
+      "showcase_blueprint_id": "executive-corporate-01"
+    },
+    {
+      "id": "product-pulse",
+      "name": "Product Pulse",
+      "primary_category_ids": [
+        "saas"
+      ],
+      "compatible_category_ids": [
+        "landing",
+        "business"
+      ],
+      "positioning": "Bold, technology-driven and product-focused.",
+      "visual_traits": [
+        "product-led hero",
+        "high-contrast CTA",
+        "interface showcases",
+        "modular feature sections",
+        "controlled gradients"
+      ],
+      "recommended_for": [
+        "SaaS products",
+        "AI tools",
+        "developer products",
+        "digital platforms"
+      ],
+      "avoid_when": [
+        "there is no real product interface or product evidence to show"
+      ],
+      "token_profile": "product-tech",
+      "motion_profile": "purposeful-product",
+      "imagery": "real product UI, diagrams and contextual product photography",
+      "template_key": "minimal",
+      "version": 1,
+      "token_profile_base": "product-tech",
+      "token_overrides": {
+        "color": {
+          "background": "#FFFFFF",
+          "surface": "#F4F2FF",
+          "text": "#0E0B2E",
+          "muted": "#54527A",
+          "primary": "#6A3DF5",
+          "primary_contrast": "#FFFFFF",
+          "accent": "#0B7285"
+        },
+        "typography": {
+          "display": "space-grotesk",
+          "body": "inter"
+        },
+        "radius": "14px",
+        "density": "balanced",
+        "heading_weight": 700,
+        "tracking": "-0.03em"
+      },
+      "conversion_goals": [
+        "lead",
+        "booking",
+        "inquiry"
+      ],
+      "image_dependence": "low",
+      "content_depth": "high",
+      "layout_preferences": {
+        "navigation": "product",
+        "hero": "product-showcase",
+        "features": "bento",
+        "gallery": "featured-grid",
+        "cta": "split",
+        "footer": "product-footer"
+      },
+      "art_style": "orbs",
+      "showcase_blueprint_id": "saas-product-01"
+    },
+    {
+      "id": "datacanvas",
+      "name": "DataCanvas",
+      "primary_category_ids": [
+        "saas"
+      ],
+      "compatible_category_ids": [
+        "business"
+      ],
+      "positioning": "Clean, analytical and intelligent.",
+      "visual_traits": [
+        "minimal layouts",
+        "data visualisation",
+        "precise typography",
+        "quiet surfaces",
+        "structured grids"
+      ],
+      "recommended_for": [
+        "analytics platforms",
+        "AI productivity tools",
+        "finance and operations software"
+      ],
+      "avoid_when": [
+        "the brand needs emotional storytelling to lead the experience"
+      ],
+      "token_profile": "analytical-light",
+      "motion_profile": "functional-micro",
+      "imagery": "authentic charts, product screens and data-led diagrams; never fabricate metrics",
+      "template_key": "minimal",
+      "version": 1,
+      "token_profile_base": "analytical-light",
+      "token_overrides": {
+        "color": {
+          "background": "#FAFCFB",
+          "surface": "#EAF2F0",
+          "text": "#0C1F1C",
+          "muted": "#46605B",
+          "primary": "#0E6B5C",
+          "primary_contrast": "#FFFFFF",
+          "accent": "#1D4ED8"
+        },
+        "typography": {
+          "display": "ibm-plex-sans",
+          "body": "ibm-plex-sans"
+        },
+        "radius": "2px",
+        "density": "compact",
+        "heading_weight": 600,
+        "tracking": "-0.015em"
+      },
+      "conversion_goals": [
+        "lead",
+        "inquiry"
+      ],
+      "image_dependence": "low",
+      "content_depth": "high",
+      "layout_preferences": {
+        "navigation": "simple",
+        "hero": "split",
+        "features": "icon-grid",
+        "gallery": "featured-grid",
+        "cta": "minimal",
+        "footer": "minimal"
+      },
+      "art_style": "chart",
+      "showcase_blueprint_id": "saas-product-01"
+    },
+    {
+      "id": "auteur",
+      "name": "Auteur",
+      "primary_category_ids": [
+        "portfolio"
+      ],
+      "compatible_category_ids": [
+        "agency"
+      ],
+      "positioning": "Expressive, artistic and editorial.",
+      "visual_traits": [
+        "oversized typography",
+        "art-directed imagery",
+        "asymmetric composition",
+        "distinctive pacing",
+        "minimal chrome"
+      ],
+      "recommended_for": [
+        "designers",
+        "photographers",
+        "artists",
+        "creative professionals"
+      ],
+      "avoid_when": [
+        "dense operational information or complex catalogues dominate"
+      ],
+      "token_profile": "auteur-editorial",
+      "motion_profile": "expressive-controlled",
+      "imagery": "high-quality original work, case studies and personal imagery",
+      "template_key": "editorial",
+      "version": 1,
+      "token_profile_base": "auteur-editorial",
+      "token_overrides": {
+        "color": {
+          "background": "#F4F1EA",
+          "surface": "#E8E2D6",
+          "text": "#14110F",
+          "muted": "#5E574D",
+          "primary": "#14110F",
+          "primary_contrast": "#F4F1EA",
+          "accent": "#B8341B"
+        },
+        "typography": {
+          "display": "instrument-serif",
+          "body": "instrument-sans"
+        },
+        "radius": "0px",
+        "density": "spacious",
+        "heading_weight": 500,
+        "tracking": "-0.035em",
+        "eyebrow_case": "none"
+      },
+      "conversion_goals": [
+        "awareness",
+        "inquiry"
+      ],
+      "image_dependence": "high",
+      "content_depth": "low",
+      "layout_preferences": {
+        "navigation": "floating",
+        "hero": "typography-led",
+        "services": "editorial-list",
+        "gallery": "edge-to-edge-grid",
+        "testimonials": "editorial-quotes",
+        "cta": "full-width-bold",
+        "footer": "minimal"
+      },
+      "art_style": "rings",
+      "showcase_blueprint_id": "creative-studio-01"
+    },
+    {
+      "id": "gridcraft",
+      "name": "Gridcraft",
+      "primary_category_ids": [
+        "portfolio"
+      ],
+      "compatible_category_ids": [
+        "agency",
+        "business"
+      ],
+      "positioning": "Structured, visual and detail-oriented.",
+      "visual_traits": [
+        "modular grids",
+        "project thumbnails",
+        "consistent ratios",
+        "clear labels",
+        "disciplined spacing"
+      ],
+      "recommended_for": [
+        "architects",
+        "developers",
+        "multidisciplinary portfolios",
+        "product designers"
+      ],
+      "avoid_when": [
+        "a freeform immersive narrative is more appropriate"
+      ],
+      "token_profile": "gridcraft-neutral",
+      "motion_profile": "subtle-reveal",
+      "imagery": "project photography, rendered work and consistent portfolio thumbnails",
+      "template_key": "minimal",
+      "version": 1,
+      "token_profile_base": "analytical-light",
+      "token_overrides": {
+        "color": {
+          "background": "#F3F5F6",
+          "surface": "#E4E9EB",
+          "text": "#10181C",
+          "muted": "#4F5E65",
+          "primary": "#1F4B5C",
+          "primary_contrast": "#FFFFFF",
+          "accent": "#C2410C"
+        },
+        "typography": {
+          "display": "archivo",
+          "body": "archivo"
+        },
+        "radius": "0px",
+        "density": "balanced",
+        "heading_weight": 700,
+        "tracking": "-0.02em"
+      },
+      "conversion_goals": [
+        "awareness",
+        "inquiry"
+      ],
+      "image_dependence": "high",
+      "content_depth": "medium",
+      "layout_preferences": {
+        "navigation": "simple",
+        "hero": "split",
+        "services": "icon-grid",
+        "gallery": "featured-grid",
+        "testimonials": "cards",
+        "cta": "split",
+        "footer": "three-column"
+      },
+      "art_style": "grid",
+      "showcase_blueprint_id": "creative-studio-01"
+    },
+    {
+      "id": "maison-market",
+      "name": "Maison Market",
+      "primary_category_ids": [
+        "shop"
+      ],
+      "compatible_category_ids": [
+        "business"
+      ],
+      "positioning": "Premium, refined and lifestyle-driven.",
+      "visual_traits": [
+        "editorial product photography",
+        "warm or muted palette",
+        "elegant typography",
+        "generous product spacing",
+        "quiet merchandising"
+      ],
+      "recommended_for": [
+        "fashion",
+        "beauty",
+        "homeware",
+        "premium lifestyle products"
+      ],
+      "avoid_when": [
+        "low-cost high-volume retail requires dense comparison and fast scanning"
+      ],
+      "token_profile": "maison-luxe",
+      "motion_profile": "elegant-product",
+      "imagery": "accurate product photography, lifestyle context and material detail",
+      "template_key": "premium_luxury",
+      "version": 1,
+      "token_profile_base": "warm-heritage",
+      "token_overrides": {
+        "color": {
+          "background": "#FAF7F4",
+          "surface": "#EFE7E1",
+          "text": "#2B2422",
+          "muted": "#6B5E58",
+          "primary": "#3B2A2F",
+          "primary_contrast": "#FAF7F4",
+          "accent": "#8C5A4A"
+        },
+        "typography": {
+          "display": "cormorant-garamond",
+          "body": "jost"
+        },
+        "radius": "0px",
+        "density": "spacious",
+        "heading_weight": 500,
+        "tracking": "0em"
+      },
+      "conversion_goals": [
+        "purchase"
+      ],
+      "image_dependence": "high",
+      "content_depth": "medium",
+      "layout_preferences": {
+        "navigation": "floating",
+        "hero": "editorial-asymmetric",
+        "testimonials": "editorial-quotes",
+        "cta": "minimal",
+        "footer": "three-column"
+      },
+      "art_style": "arch",
+      "showcase_blueprint_id": "shop-showcase-01"
+    },
+    {
+      "id": "bold-commerce",
+      "name": "Bold Commerce",
+      "primary_category_ids": [
+        "shop"
+      ],
+      "compatible_category_ids": [
+        "landing"
+      ],
+      "positioning": "Energetic, vibrant and conversion-focused.",
+      "visual_traits": [
+        "strong product cards",
+        "visible pricing",
+        "prominent purchase actions",
+        "campaign banners",
+        "clear merchandising"
+      ],
+      "recommended_for": [
+        "consumer products",
+        "retail",
+        "promotional stores",
+        "high-energy brands"
+      ],
+      "avoid_when": [
+        "luxury restraint or editorial storytelling is the primary brand requirement"
+      ],
+      "token_profile": "bold-retail",
+      "motion_profile": "responsive-commerce",
+      "imagery": "accurate product imagery, clear variants and promotional artwork",
+      "template_key": "commerce_energetic",
+      "version": 1,
+      "token_profile_base": "bold-retail",
+      "token_overrides": {
+        "color": {
+          "background": "#FFFFFF",
+          "surface": "#FFF1E6",
+          "text": "#161616",
+          "muted": "#4B4B4B",
+          "primary": "#D9202F",
+          "primary_contrast": "#FFFFFF",
+          "accent": "#0B5FFF"
+        },
+        "typography": {
+          "display": "rubik",
+          "body": "rubik"
+        },
+        "radius": "12px",
+        "button_radius": "999px",
+        "density": "compact",
+        "heading_weight": 800,
+        "tracking": "-0.02em"
+      },
+      "conversion_goals": [
+        "purchase"
+      ],
+      "image_dependence": "high",
+      "content_depth": "high",
+      "layout_preferences": {
+        "navigation": "product",
+        "hero": "split",
+        "testimonials": "cards",
+        "cta": "full-width-bold",
+        "footer": "product-footer"
+      },
+      "art_style": "blocks",
+      "showcase_blueprint_id": "shop-showcase-01"
+    },
+    {
+      "id": "creative-voltage",
+      "name": "Creative Voltage",
+      "primary_category_ids": [
+        "agency"
+      ],
+      "compatible_category_ids": [
+        "portfolio",
+        "landing"
+      ],
+      "positioning": "Experimental, energetic and expressive.",
+      "visual_traits": [
+        "bold typography",
+        "unexpected composition",
+        "colour accents",
+        "strong project storytelling",
+        "distinctive transitions"
+      ],
+      "recommended_for": [
+        "creative agencies",
+        "advertising studios",
+        "digital production teams"
+      ],
+      "avoid_when": [
+        "the audience expects conservative institutional presentation"
+      ],
+      "token_profile": "creative-voltage",
+      "motion_profile": "expressive-purposeful",
+      "imagery": "campaign work, creative projects and original art direction",
+      "template_key": "creative_studio",
+      "version": 1,
+      "token_profile_base": "auteur-editorial",
+      "token_overrides": {
+        "color": {
+          "background": "#0F0B1E",
+          "surface": "#1C1535",
+          "text": "#F5F2FF",
+          "muted": "#B8B0D6",
+          "primary": "#C6FF3D",
+          "primary_contrast": "#0F0B1E",
+          "accent": "#FF4FD8"
+        },
+        "typography": {
+          "display": "syne",
+          "body": "dm-sans"
+        },
+        "radius": "18px",
+        "button_radius": "999px",
+        "density": "balanced",
+        "heading_weight": 800,
+        "tracking": "-0.03em"
+      },
+      "conversion_goals": [
+        "awareness",
+        "booking",
+        "inquiry"
+      ],
+      "image_dependence": "high",
+      "content_depth": "medium",
+      "layout_preferences": {
+        "navigation": "floating",
+        "hero": "typography-led",
+        "services": "image-cards",
+        "gallery": "edge-to-edge-grid",
+        "testimonials": "cards",
+        "cta": "full-width-bold",
+        "footer": "minimal"
+      },
+      "art_style": "stripes",
+      "showcase_blueprint_id": "creative-studio-01"
+    },
+    {
+      "id": "studio-editorial",
+      "name": "Studio Editorial",
+      "primary_category_ids": [
+        "agency"
+      ],
+      "compatible_category_ids": [
+        "portfolio",
+        "services",
+        "business"
+      ],
+      "positioning": "Art-directed, sophisticated and minimal.",
+      "visual_traits": [
+        "editorial typography",
+        "large image compositions",
+        "considered whitespace",
+        "case-study storytelling",
+        "restrained navigation"
+      ],
+      "recommended_for": [
+        "branding studios",
+        "design agencies",
+        "strategy consultancies"
+      ],
+      "avoid_when": [
+        "the website requires dense product configuration or ecommerce merchandising"
+      ],
+      "token_profile": "studio-editorial",
+      "motion_profile": "editorial-transition",
+      "imagery": "high-quality case studies, brand systems and studio photography",
+      "template_key": "editorial",
+      "version": 1,
+      "token_profile_base": "auteur-editorial",
+      "token_overrides": {
+        "color": {
+          "background": "#0F1A15",
+          "surface": "#17261F",
+          "text": "#EEF1EA",
+          "muted": "#A9B8AE",
+          "primary": "#EEF1EA",
+          "primary_contrast": "#0F1A15",
+          "accent": "#D2B879"
+        },
+        "typography": {
+          "display": "playfair-display",
+          "body": "work-sans"
+        },
+        "radius": "0px",
+        "density": "spacious",
+        "heading_weight": 500,
+        "tracking": "-0.02em",
+        "eyebrow_case": "none"
+      },
+      "conversion_goals": [
+        "inquiry",
+        "awareness",
+        "booking"
+      ],
+      "image_dependence": "high",
+      "content_depth": "medium",
+      "layout_preferences": {
+        "navigation": "simple",
+        "hero": "editorial-asymmetric",
+        "services": "editorial-list",
+        "gallery": "featured-grid",
+        "testimonials": "editorial-quotes",
+        "cta": "minimal",
+        "footer": "three-column"
+      },
+      "art_style": "dots",
+      "showcase_blueprint_id": "creative-studio-01"
+    },
+    {
+      "id": "launch-signal",
+      "name": "Launch Signal",
+      "primary_category_ids": [
+        "landing"
+      ],
+      "compatible_category_ids": [
+        "saas",
+        "business",
+        "shop",
+        "agency"
+      ],
+      "positioning": "Focused, persuasive and high-impact.",
+      "visual_traits": [
+        "single primary message",
+        "strong hero CTA",
+        "proof near the top",
+        "short conversion path",
+        "clear benefit hierarchy"
+      ],
+      "recommended_for": [
+        "product launches",
+        "campaigns",
+        "lead generation",
+        "waitlists",
+        "event registration"
+      ],
+      "avoid_when": [
+        "a complex multi-page information architecture is required as the sole page structure"
+      ],
+      "token_profile": "launch-signal",
+      "motion_profile": "conversion-focused",
+      "imagery": "product or campaign-specific imagery; proof must be factual",
+      "template_key": "modern_corporate",
+      "version": 1,
+      "token_profile_base": "product-tech",
+      "token_overrides": {
+        "color": {
+          "background": "#FFFFFF",
+          "surface": "#EEF6FF",
+          "text": "#0A1A33",
+          "muted": "#455A78",
+          "primary": "#0057FF",
+          "primary_contrast": "#FFFFFF",
+          "accent": "#D1005F"
+        },
+        "typography": {
+          "display": "plus-jakarta-sans",
+          "body": "plus-jakarta-sans"
+        },
+        "radius": "16px",
+        "button_radius": "999px",
+        "density": "balanced",
+        "heading_weight": 800,
+        "tracking": "-0.035em"
+      },
+      "conversion_goals": [
+        "lead",
+        "booking",
+        "purchase"
+      ],
+      "image_dependence": "medium",
+      "content_depth": "low",
+      "layout_preferences": {
+        "navigation": "product",
+        "hero": "centered",
+        "features": "bento",
+        "cta": "full-width-bold",
+        "footer": "minimal"
+      },
+      "art_style": "ribbons",
+      "showcase_blueprint_id": "launch-page-01"
+    },
+    {
+      "id": "trusted-expertise",
+      "name": "Trusted Expertise",
+      "primary_category_ids": [
+        "services"
+      ],
+      "compatible_category_ids": [
+        "business",
+        "agency"
+      ],
+      "positioning": "Reassuring, informative and credibility-driven.",
+      "visual_traits": [
+        "clear service descriptions",
+        "trust signals",
+        "process explanation",
+        "professional imagery",
+        "prominent contact actions"
+      ],
+      "recommended_for": [
+        "consultants",
+        "contractors",
+        "professional firms",
+        "local service providers"
+      ],
+      "avoid_when": [
+        "the business is primarily a self-serve software product or visual artist portfolio"
+      ],
+      "token_profile": "trusted-expertise",
+      "motion_profile": "subtle-functional",
+      "imagery": "real team, service delivery, premises, projects and verified credentials",
+      "template_key": "modern_corporate",
+      "version": 1,
+      "token_profile_base": "executive-neutral",
+      "token_overrides": {
+        "color": {
+          "background": "#FFFFFF",
+          "surface": "#F1F6F4",
+          "text": "#14261F",
+          "muted": "#4D625A",
+          "primary": "#1F5E4B",
+          "primary_contrast": "#FFFFFF",
+          "accent": "#9A5B00"
+        },
+        "typography": {
+          "display": "lora",
+          "body": "nunito-sans"
+        },
+        "radius": "8px",
+        "density": "balanced",
+        "heading_weight": 700,
+        "tracking": "-0.01em"
+      },
+      "conversion_goals": [
+        "inquiry",
+        "booking",
+        "lead"
+      ],
+      "image_dependence": "medium",
+      "content_depth": "high",
+      "layout_preferences": {
+        "navigation": "simple",
+        "hero": "split",
+        "services": "image-cards",
+        "testimonials": "cards",
+        "footer": "three-column"
+      },
+      "art_style": "mosaic",
+      "showcase_blueprint_id": "local-services-01"
+    }
+  ],
+  "token_profiles": [
+    {
+      "id": "executive-neutral",
+      "mood": "confident and restrained",
+      "color": {
+        "background": "#FFFFFF",
+        "surface": "#F4F5F7",
+        "text": "#14181F",
+        "muted": "#4F5866",
+        "primary": "#1F3A5F",
+        "primary_contrast": "#FFFFFF",
+        "accent": "#8A6A35"
+      },
+      "typography": {
+        "display": "sans",
+        "body": "sans"
+      },
+      "radius": "6px"
+    },
+    {
+      "id": "warm-heritage",
+      "mood": "warm and timeless",
+      "color": {
+        "background": "#FAF6EF",
+        "surface": "#F1EADC",
+        "text": "#221E1A",
+        "muted": "#5F574D",
+        "primary": "#6D3B2E",
+        "primary_contrast": "#FFFFFF",
+        "accent": "#8A5F1F"
+      },
+      "typography": {
+        "display": "serif",
+        "body": "sans"
+      },
+      "radius": "4px"
+    },
+    {
+      "id": "product-tech",
+      "mood": "modern and technical",
+      "color": {
+        "background": "#FFFFFF",
+        "surface": "#F3F4FF",
+        "text": "#0F1222",
+        "muted": "#525870",
+        "primary": "#4F46E5",
+        "primary_contrast": "#FFFFFF",
+        "accent": "#0E7490"
+      },
+      "typography": {
+        "display": "sans",
+        "body": "sans"
+      },
+      "radius": "10px"
+    },
+    {
+      "id": "analytical-light",
+      "mood": "precise and clean",
+      "color": {
+        "background": "#FBFCFD",
+        "surface": "#EFF3F6",
+        "text": "#101820",
+        "muted": "#4F5C69",
+        "primary": "#0F766E",
+        "primary_contrast": "#FFFFFF",
+        "accent": "#1D4ED8"
+      },
+      "typography": {
+        "display": "sans",
+        "body": "sans"
+      },
+      "radius": "6px"
+    },
+    {
+      "id": "auteur-editorial",
+      "mood": "expressive and editorial",
+      "color": {
+        "background": "#F7F5F2",
+        "surface": "#ECE8E2",
+        "text": "#111111",
+        "muted": "#5A544C",
+        "primary": "#111111",
+        "primary_contrast": "#FFFFFF",
+        "accent": "#B83A18"
+      },
+      "typography": {
+        "display": "serif",
+        "body": "sans"
+      },
+      "radius": "0px"
+    },
+    {
+      "id": "bold-retail",
+      "mood": "energetic and commercial",
+      "color": {
+        "background": "#FFFFFF",
+        "surface": "#FFF4E5",
+        "text": "#1A1A1A",
+        "muted": "#545454",
+        "primary": "#C41E62",
+        "primary_contrast": "#FFFFFF",
+        "accent": "#8F5F00"
+      },
+      "typography": {
+        "display": "sans",
+        "body": "sans"
+      },
+      "radius": "12px"
+    }
+  ],
+  "legacy_directions": {
+    "editorial": {
+      "primary_category_ids": [
+        "agency",
+        "portfolio"
+      ],
+      "replaced_by": "studio-editorial"
+    },
+    "minimal": {
+      "primary_category_ids": [
+        "saas"
+      ],
+      "replaced_by": "product-pulse"
+    },
+    "modern_corporate": {
+      "primary_category_ids": [
+        "business"
+      ],
+      "replaced_by": "executive-clarity"
+    },
+    "creative_studio": {
+      "primary_category_ids": [
+        "agency"
+      ],
+      "replaced_by": "creative-voltage"
+    },
+    "premium_luxury": {
+      "primary_category_ids": [
+        "shop"
+      ],
+      "replaced_by": "maison-market"
+    },
+    "commerce_energetic": {
+      "primary_category_ids": [
+        "shop"
+      ],
+      "replaced_by": "bold-commerce"
+    }
+  }
+}

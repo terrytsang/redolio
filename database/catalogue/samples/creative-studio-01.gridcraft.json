@@ -1,0 +1,144 @@
+{
+  "navigation-studio": {
+    "brand": "Ortho Architects",
+    "links": [
+      {
+        "label": "Practice",
+        "href": "#services"
+      },
+      {
+        "label": "Work",
+        "href": "#gallery"
+      },
+      {
+        "label": "Words",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Start a project",
+      "href": "#get-started"
+    }
+  },
+  "hero-studio": {
+    "eyebrow": "Architecture & urban design",
+    "headline": "Buildings measured to the millimetre, felt at human scale",
+    "subheadline": "A multidisciplinary practice delivering housing, cultural and civic projects across three continents.",
+    "primary_cta": {
+      "label": "Start a project",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "Browse projects",
+      "href": "#gallery"
+    },
+    "image": {
+      "alt": "Selected work from the studio"
+    }
+  },
+  "services-disciplines": {
+    "heading": "Disciplines",
+    "items": [
+      {
+        "title": "Masterplanning",
+        "description": "Districts and neighbourhoods shaped around people and movement.",
+        "meta": "Urban"
+      },
+      {
+        "title": "Residential",
+        "description": "Homes with light, proportion and long-term performance.",
+        "meta": "Housing"
+      },
+      {
+        "title": "Cultural & civic",
+        "description": "Libraries, galleries and public rooms that welcome everyone.",
+        "meta": "Public"
+      },
+      {
+        "title": "Adaptive reuse",
+        "description": "Giving existing buildings a rigorous second life.",
+        "meta": "Retrofit"
+      }
+    ]
+  },
+  "gallery-selected-work": {
+    "heading": "Selected projects",
+    "items": [
+      {
+        "title": "Kestrel House",
+        "caption": "Residential, 2024"
+      },
+      {
+        "title": "Riverside Library",
+        "caption": "Civic, 2023"
+      },
+      {
+        "title": "Foundry Lofts",
+        "caption": "Adaptive reuse"
+      },
+      {
+        "title": "North Quay",
+        "caption": "Masterplan"
+      },
+      {
+        "title": "Atrium Courts",
+        "caption": "Housing"
+      },
+      {
+        "title": "Pavilion 9",
+        "caption": "Cultural"
+      }
+    ]
+  },
+  "testimonials-studio": {
+    "heading": "Kind words",
+    "items": [
+      {
+        "quote": "Rigorous, calm and always three steps ahead.",
+        "name": "Marta Lindqvist",
+        "role": "Project director, city council"
+      }
+    ]
+  },
+  "cta-studio": {
+    "heading": "Have a site in mind?",
+    "body": "Tell us about the brief — we reply within two working days.",
+    "primary_cta": {
+      "label": "Start a project",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "Browse projects",
+      "href": "#gallery"
+    }
+  },
+  "footer-studio": {
+    "brand": "Ortho Architects",
+    "tagline": "Architecture with discipline and warmth.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Practice",
+            "href": "#services"
+          },
+          {
+            "label": "Work",
+            "href": "#gallery"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© Ortho Architects — illustrative example site for a fictional brand."
+  }
+}

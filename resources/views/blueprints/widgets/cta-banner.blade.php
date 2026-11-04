@@ -1,0 +1,1 @@
+<section class="bp-section"><div class="bp-wrap"><div class="bpw-cta"><div><h2>{{ $c['heading'] }}</h2>@if (! empty($c['text']))<p>{{ $c['text'] }}</p>@endif</div>@if (! empty($c['button_label']) && ! empty($c['button_href']))<a class="bp-btn bp-btn--light" href="{{ $c['button_href'] }}">{{ $c['button_label'] }}</a>@endif</div></div></section>

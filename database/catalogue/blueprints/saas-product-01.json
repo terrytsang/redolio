@@ -1,0 +1,113 @@
+{
+  "id": "saas-product-01",
+  "name": "SaaS Product Showcase",
+  "description": "Product-led homepage: hero, proof, feature bento, product views, workflow, pricing, FAQ and a closing call to action.",
+  "category_ids": [
+    "saas"
+  ],
+  "compatible_direction_ids": [
+    "product-pulse",
+    "datacanvas",
+    "launch-signal",
+    "executive-clarity"
+  ],
+  "page_type": "homepage",
+  "section_sequence": [
+    {
+      "instance_id": "navigation-product",
+      "component_id": "navigation",
+      "variant_id": "product",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "hero-product-split",
+      "component_id": "hero",
+      "variant_id": "product-showcase",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "logo-proof-strip",
+      "component_id": "trust-strip",
+      "variant_id": "logos",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "features-bento",
+      "component_id": "features",
+      "variant_id": "bento",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "product-screenshots",
+      "component_id": "gallery",
+      "variant_id": "featured-grid",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "workflow-steps",
+      "component_id": "process",
+      "variant_id": "numbered-steps",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "pricing-simple",
+      "component_id": "pricing",
+      "variant_id": "simple",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "faq-accordion",
+      "component_id": "faq",
+      "variant_id": "accordion",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "cta-product",
+      "component_id": "cta",
+      "variant_id": "split",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "footer-product",
+      "component_id": "footer",
+      "variant_id": "product-footer",
+      "optional": false,
+      "fallback": "required"
+    }
+  ],
+  "responsive_rules": {
+    "breakpoint_profile": "default",
+    "mobile_navigation": "disclosure-menu",
+    "section_order_overrides": {},
+    "visibility_rules": {},
+    "notes": "Bento and pricing collapse to one column; nav becomes a disclosure menu."
+  },
+  "interaction_contracts": [
+    {
+      "type": "mobile_navigation",
+      "section": "navigation"
+    },
+    {
+      "type": "faq_accordion",
+      "section": "faq-accordion"
+    }
+  ],
+  "preview_assets": [],
+  "version": 1,
+  "status": "draft",
+  "provenance": {
+    "authored_by": "REDO",
+    "source": "Independently authored from PRD v1.5 section sequence",
+    "licence": "Internal"
+  },
+  "content_slot_schema": "derived-from-section-registry"
+}

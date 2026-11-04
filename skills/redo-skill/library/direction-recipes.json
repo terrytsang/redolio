@@ -1,0 +1,107 @@
+[
+  {
+    "id": "editorial-personal",
+    "name": "Editorial / personal brand",
+    "best_for": ["consultants", "named personal brands", "thought leaders", "writers", "coaches"],
+    "one_liner": "A confident, warm, magazine-style layout built around a named person and their point of view.",
+    "type_system": {
+      "display": "A serif or high-contrast display face for headlines, tracked tight, large (clamp to roughly 3rem-4.5rem).",
+      "body": "A clean sans for body copy, generous line-height (1.5-1.6).",
+      "scale_note": "Two sizes carry the page: the large serif headline and the body text. One mid-size for section headings."
+    },
+    "color_approach": "Warm neutral ground (cream, warm white), near-black ink, one restrained accent (a deep clay, rust, or forest tone) used only on the primary action and small marks.",
+    "layout_logic": "Asymmetric two-column hero: headline and intro text on one side, a real portrait on the other, never centered. Sections below alternate text-led and image-led.",
+    "avoid": "Centered hero, stock business photography, generic icon grid.",
+    "redo_template_key": "editorial"
+  },
+  {
+    "id": "modern-minimal",
+    "name": "Modern minimal",
+    "best_for": ["studios", "small businesses", "service providers", "portfolio sites"],
+    "one_liner": "Restraint as the whole strategy: one message, one action, maximum whitespace.",
+    "type_system": {
+      "display": "A single clean sans, used at both display and body sizes — no second typeface.",
+      "body": "Same family as display, lighter weight, comfortable size (16-18px).",
+      "scale_note": "Three sizes total. Nothing decorative."
+    },
+    "color_approach": "Near-white ground, near-black ink, one neutral mid-tone for secondary surfaces. Accent color is optional and used sparingly if at all.",
+    "layout_logic": "Centered, narrow-measure hero with generous vertical space above and below. Content sections are simple single- or two-column grids with large gaps between sections.",
+    "avoid": "Any gradient, any shadow, more than one accent color, dense multi-column layouts.",
+    "redo_template_key": "minimal"
+  },
+  {
+    "id": "modern-corporate",
+    "name": "Modern corporate / B2B trust",
+    "best_for": ["B2B services", "professional firms", "corporate and institutional sites"],
+    "one_liner": "Structured hierarchy and trust signals for an audience evaluating credibility, not browsing for inspiration.",
+    "type_system": {
+      "display": "A confident sans, bold weight for headlines, moderate size (not oversized — trust reads as measured, not loud).",
+      "body": "Same family, regular weight, high legibility.",
+      "scale_note": "A clear heading/subheading/body hierarchy — more structural than expressive."
+    },
+    "color_approach": "White or very light neutral ground, dark ink, a single corporate accent (commonly a blue) used consistently for every action and link.",
+    "layout_logic": "Image-led or balanced split hero, structured card grids for services, a dedicated proof/trust section (clients, numbers, credentials) placed prominently.",
+    "avoid": "Playful or expressive type, more than one accent color, anything that reads as casual.",
+    "redo_template_key": "modern_corporate"
+  },
+  {
+    "id": "creative-bold",
+    "name": "Creative studio / bold",
+    "best_for": ["creative agencies", "designers", "production studios", "anyone wanting to feel confident, not safe"],
+    "one_liner": "Oversized type and a near-black canvas with one vivid accent color, built to feel distinctive rather than corporate.",
+    "type_system": {
+      "display": "A heavy-weight sans, set very large (headline can dominate the entire first screen).",
+      "body": "Same family, lighter weight, kept small and quiet relative to the display size.",
+      "scale_note": "Extreme contrast between display and body sizes is the point."
+    },
+    "color_approach": "Near-black ground, off-white ink, one genuinely vivid accent (not a gradient — a single flat saturated color) used for the primary action and small marks only.",
+    "layout_logic": "Full-bleed, wide hero imagery; project/work grids with minimal chrome around each item, letting the work itself carry the visual weight.",
+    "avoid": "Pastel or muted colors, small/timid type, generic icon decoration.",
+    "redo_template_key": "creative_studio"
+  },
+  {
+    "id": "premium-luxury",
+    "name": "Premium / luxury",
+    "best_for": ["premium services", "boutique brands", "high-end hospitality", "anything that needs to feel exclusive and unhurried"],
+    "one_liner": "A dark, quiet canvas with a thin metallic accent and a centered, patient hero — nothing competes for attention.",
+    "type_system": {
+      "display": "A refined serif for the headline, moderate size, generous letter-spacing on supporting labels.",
+      "body": "A plain sans for body copy, kept small and quiet.",
+      "scale_note": "Restraint over scale — luxury reads as unhurried, not loud."
+    },
+    "color_approach": "Near-black ground, warm off-white ink, a single thin gold/bronze accent used only on borders and small marks, never as a fill.",
+    "layout_logic": "Centered hero with large surrounding negative space. Single large atmospheric image beneath the fold. Gallery sections use generous spacing between items, no visible card chrome.",
+    "avoid": "Bright or saturated color, dense grids, visible borders/shadows on cards.",
+    "redo_template_key": "premium_luxury"
+  },
+  {
+    "id": "product-confident",
+    "name": "Product-confident",
+    "best_for": ["physical or digital products with genuinely strong photography", "single-product launches"],
+    "one_liner": "One dominant product image and one claim per screen — inspired by how Apple paces a product page, applied to a completely different product.",
+    "type_system": {
+      "display": "A clean, very confident sans, large, one claim per screen.",
+      "body": "Same family, short supporting sentence — never a paragraph on the first screen of a section.",
+      "scale_note": "Two sizes: the claim, and the short supporting line. Nothing competes with the product image."
+    },
+    "color_approach": "White or one flat deep color per section (not a wash of gray) — color changes deliberately section to section, chosen to flatter the product image, not decorate the UI.",
+    "layout_logic": "One large, well-lit product image per scroll stop, paired with one short claim. Sections reveal one idea at a time rather than stacking multiple claims together.",
+    "avoid": "Multiple claims per screen, generic UI iconography standing in for the actual product, busy backgrounds competing with the product image.",
+    "redo_template_key": null
+  },
+  {
+    "id": "commerce-energetic",
+    "name": "Commerce-energetic",
+    "best_for": ["small/local businesses selling directly", "approachable retail or service brands"],
+    "one_liner": "Restraint plus energy — alternating flat-color sections and specific, concrete proof rather than abstract claims.",
+    "type_system": {
+      "display": "A friendly but confident sans, bold for headlines.",
+      "body": "Same family, regular weight, comfortable reading size.",
+      "scale_note": "Clear two-level hierarchy; approachable rather than austere."
+    },
+    "color_approach": "Alternating flat-color section backgrounds (not a uniform gray page) to create rhythm as the visitor scrolls — one neutral section, one bold-color section, repeating.",
+    "layout_logic": "Each section makes one specific, concrete claim backed by a real number or real example — never an abstract claim with no proof. One clear CTA per section, high contrast.",
+    "avoid": "Abstract marketing claims with no specific backing, a uniform gray page with no rhythm, competing CTAs within one section.",
+    "redo_template_key": "commerce_energetic"
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "navigation-studio": {
+    "brand": "VOLT/AGE",
+    "links": [
+      {
+        "label": "Practice",
+        "href": "#services"
+      },
+      {
+        "label": "Work",
+        "href": "#gallery"
+      },
+      {
+        "label": "Words",
+        "href": "#testimonials"
+      }
+    ],
+    "cta": {
+      "label": "Start a campaign",
+      "href": "#get-started"
+    }
+  },
+  "hero-studio": {
+    "eyebrow": "Creative agency",
+    "headline": "Make noise that moves people",
+    "subheadline": "Campaigns, identities and content built to break the scroll — for brands that refuse to blend in.",
+    "primary_cta": {
+      "label": "Start a campaign",
+      "href": "#get-started"
+    },
+    "secondary_cta": {
+      "label": "See the work",
+      "href": "#gallery"
+    },
+    "image": {
+      "alt": "Selected work from the studio"
+    }
+  },
+  "services-disciplines": {
+    "heading": "What we do",
+    "items": [
+      {
+        "title": "Brand worlds",
+        "description": "Identities with enough character to be recognised at a glance.",
+        "meta": "Identity"
+      },
+      {
+        "title": "Campaign ideas",
+        "description": "Big, simple ideas that travel across every channel.",
+        "meta": "Strategy"
+      },
+      {
+        "title": "Motion & film",
+        "description": "Moving image that earns attention in the first second.",
+        "meta": "Production"
+      },
+      {
+        "title": "Social-first content",
+        "description": "Made for the feed, not retrofitted to it.",
+        "meta": "Content"
+      }
+    ]
+  },
+  "gallery-selected-work": {
+    "heading": "Recent work",
+    "items": [
+      {
+        "title": "Neon Season",
+        "caption": "Festival campaign"
+      },
+      {
+        "title": "Loop Records",
+        "caption": "Brand launch"
+      },
+      {
+        "title": "Heatwave",
+        "caption": "Beverage film"
+      },
+      {
+        "title": "Open Late",
+        "caption": "Social series"
+      },
+      {
+        "title": "Pulse",
+        "caption": "App identity"
+      },
+      {
+        "title": "Afterglow",
+        "caption": "Event visuals"
+      }
+    ]
+  },
+  "testimonials-studio": {
+    "heading": "Kind words",
+    "items": [
+      {
+        "quote": "They made our launch the loudest thing on the internet that week.",
+        "name": "Dani Cruz",
+        "role": "CMO, Loop Records"
+      }
+    ]
+  },
+  "cta-studio": {
+    "heading": "Got something loud to say?",
+    "body": "Tell us the brief. We’ll bring the volume.",
+    "primary_cta": {
+      "label": "Start a campaign",
+      "href": "#top"
+    },
+    "secondary_cta": {
+      "label": "See the work",
+      "href": "#gallery"
+    }
+  },
+  "footer-studio": {
+    "brand": "VOLT/AGE",
+    "tagline": "Brands that refuse to blend in.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Practice",
+            "href": "#services"
+          },
+          {
+            "label": "Work",
+            "href": "#gallery"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          {
+            "label": "hello@example.com",
+            "href": "mailto:hello@example.com"
+          }
+        ]
+      }
+    ],
+    "legal": "© VOLT/AGE — illustrative example site for a fictional brand."
+  }
+}

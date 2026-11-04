@@ -1,0 +1,87 @@
+{
+  "id": "shop-showcase-01",
+  "name": "Shop Showcase",
+  "description": "Product-led storefront homepage: a campaign hero, a featured product grid, reasons to buy and a closing call to action. Prices come only from the source site.",
+  "category_ids": [
+    "shop"
+  ],
+  "compatible_direction_ids": [
+    "maison-market",
+    "bold-commerce",
+    "modern-heritage"
+  ],
+  "page_type": "homepage",
+  "section_sequence": [
+    {
+      "instance_id": "navigation-shop",
+      "component_id": "navigation",
+      "variant_id": "simple",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "hero-shop",
+      "component_id": "hero",
+      "variant_id": "split",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "products-featured",
+      "component_id": "product-grid",
+      "variant_id": "standard-grid",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "features-shop",
+      "component_id": "features",
+      "variant_id": "icon-grid",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "testimonials-shop",
+      "component_id": "testimonials",
+      "variant_id": "cards",
+      "optional": true,
+      "fallback": "omit"
+    },
+    {
+      "instance_id": "cta-shop",
+      "component_id": "cta",
+      "variant_id": "minimal",
+      "optional": false,
+      "fallback": "required"
+    },
+    {
+      "instance_id": "footer-shop",
+      "component_id": "footer",
+      "variant_id": "three-column",
+      "optional": false,
+      "fallback": "required"
+    }
+  ],
+  "responsive_rules": {
+    "breakpoint_profile": "default",
+    "mobile_navigation": "disclosure-menu",
+    "section_order_overrides": {},
+    "visibility_rules": {},
+    "notes": "Product cards reflow from four columns to two to one."
+  },
+  "interaction_contracts": [
+    {
+      "type": "mobile_navigation",
+      "section": "navigation"
+    }
+  ],
+  "preview_assets": [],
+  "version": 1,
+  "status": "draft",
+  "provenance": {
+    "authored_by": "REDO",
+    "source": "Independently authored from PRD v1.5 section vocabulary",
+    "licence": "Internal"
+  },
+  "content_slot_schema": "derived-from-section-registry"
+}

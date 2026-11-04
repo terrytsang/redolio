@@ -1,0 +1,70 @@
+[
+  {
+    "id": "apple",
+    "name": "Apple",
+    "url": "https://www.apple.com",
+    "category": "enduring-brand",
+    "does_well": [
+      "One claim per scroll stop, never stacking multiple messages on one screen",
+      "Very large, confident display type paired with a short supporting sentence — no paragraphs on the first screen of a section",
+      "One large, carefully composed product image dominates each section rather than several small supporting images",
+      "Color is spent on the subject (the product itself), not on decorative UI chrome"
+    ],
+    "applicable_pattern": "Use this when a business has one genuinely strong product/photo per section to show — pace the page around revealing one thing at a time instead of a dense feature wall.",
+    "do_not": "Copy Apple's exact typeface, exact gray/white values, or any of its copy. The pattern is pacing and restraint, not the specific visual identity."
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "url": "https://www.shopify.com",
+    "category": "enduring-brand",
+    "does_well": [
+      "Alternating flat-color section backgrounds create scroll rhythm instead of a uniform gray page",
+      "Specific, concrete proof (real numbers, real examples) instead of abstract marketing claims",
+      "Approachable type scale — confident but warmer/friendlier than a purely premium-brand register",
+      "One clear, high-contrast CTA per section"
+    ],
+    "applicable_pattern": "Use this for small-business or approachable-commerce redesigns — section-by-section color changes plus concrete, specific proof rather than vague claims.",
+    "do_not": "Copy Shopify's exact green, exact illustrations, or exact copy. The pattern is rhythm and specificity, not the visual identity."
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "url": "https://stripe.com",
+    "category": "enduring-brand",
+    "does_well": [
+      "Shows the real product (interface, code, data) as the primary imagery instead of generic icons or stock photos",
+      "Reserves monospace specifically for genuinely technical content (code, data) rather than as generic label decoration",
+      "A signature visual device (when present) is applied consistently and sparingly, not as decoration slapped on every card",
+      "Maintains one clear hierarchy per section even at higher information density than a typical marketing site"
+    ],
+    "applicable_pattern": "Use this when the subject has a real interface, process, or technical output worth showing directly — the product itself is the strongest image available, stronger than any illustration.",
+    "do_not": "Copy Stripe's gradient mesh, exact colors, or copy. The pattern is 'the real thing is the image,' not the specific visual identity."
+  },
+  {
+    "id": "land-book-gallery-pattern",
+    "name": "Land-book (gallery pattern, not a single site)",
+    "url": "https://land-book.com",
+    "category": "design-gallery",
+    "does_well": [
+      "Curates landing pages where type scale alone often carries most of the visual weight",
+      "Featured sites tend to commit to one unusual-but-legible layout idea rather than a safe default grid",
+      "Sparse, deliberate motion — one or two signature moments rather than constant animation"
+    ],
+    "applicable_pattern": "When choosing a direction, favor one distinctive composition idea over a safe default, and prefer oversized confident type over decorative elements to create visual interest.",
+    "do_not": "This is a general pattern observed across many rotating gallery entries, not a description of any single specific site. Never copy a specific featured site's exact layout, copy, or imagery."
+  },
+  {
+    "id": "awwwards-gallery-pattern",
+    "name": "Awwwards (gallery pattern, not a single site)",
+    "url": "https://www.awwwards.com/websites/",
+    "category": "design-gallery",
+    "does_well": [
+      "Award-recognized sites usually show real, specific project imagery rather than generic stock photography",
+      "Each section typically has a genuinely different composition from its neighbor, avoiding a repeated card-grid pattern",
+      "Color and type decisions tend to serve one coherent idea across the whole page rather than varying section to section without reason"
+    ],
+    "applicable_pattern": "Vary section layouts deliberately rather than repeating one card-grid pattern throughout the page, and favor real specific imagery over generic stock whenever it's available.",
+    "do_not": "This is a general pattern observed across many rotating gallery entries, not a description of any single specific site. Never copy a specific featured site's exact layout, copy, or imagery."
+  }
+]
