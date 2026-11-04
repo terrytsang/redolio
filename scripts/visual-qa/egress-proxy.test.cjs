@@ -82,6 +82,7 @@ test('only ordinary web ports are reachable', async () => {
 test('a real browser behind the proxy cannot reach internal servers: navigation, images, fetch, iframes, redirects', async (t) => {
     let chromium;
     try { ({ chromium } = require('playwright')); } catch { return t.skip('playwright not installed'); }
+    if (!require('fs').existsSync(chromium.executablePath())) return t.skip('the Chromium browser is not installed (npx playwright install chromium)');
     const secret = await secretServer();
     if (!secret) return t.skip('no web port free on loopback for the secret server');
     // A page that tries every internal route; served from a data: URL so only the PROXY policy is under test.

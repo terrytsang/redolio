@@ -347,8 +347,8 @@ class VisualQaTest extends TestCase
         if (! $local->isAvailable() || ! is_dir(base_path('node_modules/playwright'))) {
             $this->markTestSkipped('Node/Playwright is not available.');
         }
-        if (! Process::path(base_path())->run(['node', '-e', "require('playwright').chromium.executablePath()"])->successful()) {
-            $this->markTestSkipped('Playwright is not installed.');
+        if (! Process::path(base_path())->run(['node', '-e', "process.exit(require('fs').existsSync(require('playwright').chromium.executablePath()) ? 0 : 1)"])->successful()) {
+            $this->markTestSkipped('The Chromium browser is not installed (npx playwright install chromium).');
         }
 
         // The asset row exists but its file does not, so the exported <img> cannot load.
