@@ -42,7 +42,7 @@ Gemini can be switched on in the admin settings.
 
 ## Get started
 
-You need PHP 8.4+, Composer and Node 20+. SQLite is the simplest database (MySQL also works).
+You need PHP 8.4+, Composer, Node 20+ and **MySQL 8** (MariaDB 10.6+ also works). MySQL is the default database; SQLite works too if you just want to try it (see below).
 
 ```bash
 git clone https://github.com/terrytsang/redolio.git
@@ -53,10 +53,15 @@ npm install && npm run build
 
 cp .env.example .env            # your own settings — this file is git-ignored, never commit it
 php artisan key:generate
-touch database/database.sqlite  # (skip if you use MySQL; set DB_* in .env instead)
+
+# create an empty MySQL database, then put its name and login in .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD)
+mysql -u root -p -e "CREATE DATABASE redolio CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 
 php artisan migrate --seed      # creates the tables, design catalogue, plans AND your first admin
 ```
+
+> **Just trying it out with SQLite instead?** In `.env` set `DB_CONNECTION=sqlite` (and remove the other `DB_*` lines), run
+> `touch database/database.sqlite`, then `php artisan migrate --seed`.
 
 The seeder prints your first admin login **once** (a random password — save it). Prefer your own? Put
 `ADMIN_EMAIL` and `ADMIN_PASSWORD` in `.env` before running it.
