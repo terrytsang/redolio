@@ -133,3 +133,18 @@ body { background: var(--c-canvas); color: var(--c-ink); font-family: 'Inter', u
 .shot-frame img { transition: transform .6s cubic-bezier(.2,.8,.2,1); }
 .card-lift:hover .shot-frame img { transform: scale(1.03); }
 @media (prefers-reduced-motion: reduce) { .card-lift:hover .shot-frame img { transform: none; } }
+
+
+/* Information pages (about, docs, security, privacy…) */
+.page-prose{color:var(--c-body);font-size:16px;line-height:1.75}
+.page-prose h2{margin:2.4rem 0 .6rem;font-size:1.45rem;line-height:1.25;font-weight:800;letter-spacing:-.02em;color:var(--c-ink)}
+.page-prose h3{margin:1.6rem 0 .4rem;font-size:1.08rem;font-weight:700;color:var(--c-ink)}
+.page-prose p{margin:.8rem 0}
+.page-prose ul,.page-prose ol{margin:.8rem 0;padding-left:1.4rem}.page-prose ul{list-style:disc}.page-prose ol{list-style:decimal}
+.page-prose li{margin:.35rem 0}
+.page-prose a{color:var(--c-accent-ink);text-decoration:underline;text-underline-offset:3px}.page-prose a:hover{color:var(--c-ink)}
+.page-prose code{background:var(--c-surface-2);border:1px solid var(--c-line);border-radius:6px;padding:.05rem .35rem;font-size:.88em}
+.page-prose table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:14.5px}
+.page-prose th,.page-prose td{border-bottom:1px solid var(--c-line);padding:.6rem .5rem;text-align:left;vertical-align:top}
+.page-prose th{color:var(--c-ink);font-weight:700}
+.page-prose .callout{margin:1.2rem 0;padding:1rem 1.2rem;border-radius:14px;background:var(--c-accent-soft);color:var(--c-ink)}

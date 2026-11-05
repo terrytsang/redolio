@@ -3,32 +3,7 @@
 @section('title', 'REDOLIO | AI Website Transformation Platform to Build Better Digital Experiences')
 
 @section('content')
-    {{-- Nav --}}
-    <header class="border-b border-line bg-canvas">
-        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-16">
-            <a href="{{ route('landing') }}" class="text-xl font-extrabold tracking-tight text-ink"><x-brand /></a>
-
-            <nav class="hidden items-center gap-8 lg:flex">
-                <a href="#features" class="text-sm font-medium text-muted hover:text-ink">Features</a>
-                <a href="#how-it-works" class="text-sm font-medium text-muted hover:text-ink">How it works</a>
-                <a href="{{ route('pricing') }}" class="text-sm font-medium text-muted hover:text-ink">Pricing</a>
-                <a href="{{ route('directions.index') }}" class="text-sm font-medium text-muted hover:text-ink">Directions</a>
-            </nav>
-
-            <div class="flex items-center gap-3">
-                @auth
-                    <a href="{{ route('dashboard') }}" class="btn btn-dark">
-                        Dashboard
-                    </a>
-                @else
-                    <a href="{{ route('login') }}" class="hidden text-sm font-medium text-muted hover:text-ink sm:inline">Sign in</a>
-                    <a href="{{ route('register') }}" class="btn btn-dark">
-                        Start free
-                    </a>
-                @endauth
-            </div>
-        </div>
-    </header>
+    @include('partials.site-header')
 
     {{-- Hero --}}
     <section class="relative overflow-hidden bg-canvas" id="analyze">
@@ -493,40 +468,5 @@
         </div>
     </section>
 
-    {{-- Footer --}}
-    <footer class="border-t border-line bg-canvas px-6 pb-10 pt-16 lg:px-16">
-        <div class="mx-auto flex max-w-7xl flex-col gap-12">
-            <div class="flex flex-col gap-10 sm:flex-row sm:justify-between">
-                <div class="flex max-w-[280px] flex-col gap-3">
-                    <span class="text-xl font-extrabold tracking-tight text-ink"><x-brand /></span>
-                    <p class="text-[13px] leading-relaxed text-faint">The self-evolving website platform.<br>Understand. Diagnose. Redesign. Repeat.</p>
-                    <a href="#analyze" class="mt-1 w-fit rounded-full bg-accent px-[22px] py-2.5 text-[13px] font-bold text-white hover:bg-accent">
-                        Start Free
-                    </a>
-                </div>
-
-                <div class="grid grid-cols-2 gap-10 sm:flex sm:gap-16">
-                    @foreach ([
-                        'Product' => ['Features', 'How it works', 'Pricing', 'Changelog', 'Roadmap'],
-                        'Resources' => ['Documentation', 'Security', 'API status', 'Evidence policy'],
-                        'Company' => ['About', 'Built at Meta Hackathon', 'Privacy policy', 'Terms of service', 'Contact'],
-                    ] as $heading => $links)
-                        <div class="flex w-40 flex-col gap-3.5">
-                            <span class="text-[13px] font-bold tracking-wide text-ink">{{ $heading }}</span>
-                            @foreach ($links as $link)
-                                <a href="#" class="text-[13px] text-faint hover:text-muted">{{ $link }}</a>
-                            @endforeach
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-
-            <div class="h-px w-full bg-line"></div>
-
-            <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
-                <span class="text-xs text-body">© 2026 REDOLIO. Built for better websites.</span>
-                <p class="text-xs text-body">A product of <a href="https://appition.com" target="_blank" rel="noopener noreferrer" class="font-semibold text-ink underline-offset-2 hover:underline">Appition</a>.</p>
-            </div>
-        </div>
-    </footer>
+    @include('partials.site-footer')
 @endsection

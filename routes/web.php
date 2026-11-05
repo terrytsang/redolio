@@ -46,6 +46,22 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [LandingController::class, 'index'])->name('landing');
 
+// Information pages (the homepage footer links)
+Route::name('pages.')->group(function () {
+    Route::get('/about', [\App\Http\Controllers\PageController::class, 'about'])->name('about');
+    Route::get('/built-at-meta-hackathon', [\App\Http\Controllers\PageController::class, 'hackathon'])->name('hackathon');
+    Route::get('/changelog', [\App\Http\Controllers\PageController::class, 'changelog'])->name('changelog');
+    Route::get('/roadmap', [\App\Http\Controllers\PageController::class, 'roadmap'])->name('roadmap');
+    Route::get('/docs', [\App\Http\Controllers\PageController::class, 'docs'])->name('docs');
+    Route::get('/security', [\App\Http\Controllers\PageController::class, 'security'])->name('security');
+    Route::get('/evidence-policy', [\App\Http\Controllers\PageController::class, 'evidence'])->name('evidence');
+    Route::get('/privacy', [\App\Http\Controllers\PageController::class, 'privacy'])->name('privacy');
+    Route::get('/terms', [\App\Http\Controllers\PageController::class, 'terms'])->name('terms');
+    Route::get('/contact', [\App\Http\Controllers\PageController::class, 'contact'])->name('contact');
+    Route::get('/status', [\App\Http\Controllers\PageController::class, 'status'])->name('status');
+    Route::get('/status.json', [\App\Http\Controllers\PageController::class, 'statusJson'])->name('status.json');
+});
+
 Route::prefix('setup')->name('setup.')->group(function () {
     Route::get('/', [SetupController::class, 'index'])->name('index');
     Route::post('/api-key', [SetupController::class, 'saveApiKey'])->name('api-key');
